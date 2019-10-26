@@ -1,0 +1,111 @@
+=======================================================================================
+AI DATA FILE -
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Caspian Empire
+Description                              :=  The Caspian Empire is an alliance of many different cultures dedicated to bring ordered to the galaxy. The Caspian Empire has increased research and production abilities. They are aggressive conquers with superb combat skills.
+Empire Name                              := Caspian
+Empire Type                              := Empire
+Emperor Name                             := Jasper Tholian
+Emperor Title                            := Chancellor
+Biological Description                   := The Caspian Empire is composed  mostly of humanoid species which  inhabit rocky oxygen-based planets. Although humans are the primary race that comprises the Caspian Empire,  there are other races within the Empire which are mostly utilized as a labor force. The average human stands between 1.5 to 2.0 meters tall with an average weight ranging  from 50 to 100 kilograms and can live between 150 to 200 years 
+Society Description                      := The political system of the Caspian Empire is loosely based upon a militaristic totalitarian democracy with elected representatives from each of the member states, later worlds,  forming a ruling council known as the Imperial Senate. Every 5 years, an election is held to choose new Senators and dignitaries. The Chancellor, leader of the Alliance,  is appointed for life by the Imperial Senate and can only be removed by a unanimous vote from all of the Senators.  The Chancellor appointee is most often an ex-high ranking military leader with superb diplomatic and political skills. Member states/worlds maintain their own governments to administer the daily affairs of their cultures. Since the inception of the Empire, the majority of social problems that plagued many cultures have been alleviated, allowing the Empire to flourish. Highly organized trade and commerce supports a strong economy allowing the Empire to support a network of far flung colonies and outposts.
+General History Description              :=  The Caspian Empire was founded in 2061 following the end of the Great Galactic War which left the galaxy in ruin and many colonize worlds isolated and presumably alone for all eternity.  The deployment of the Armageddon Device forever changed the face of known space as it permanently ended faster than light travel within the Galaxy.  The deployment of this doomsday weapon was the only way to permanently end the conflict that had brought about the collapse and the out right extinction of many great societies.  Space travel was thought to be lost forever, but the wonders of the Universe chose otherwise.  Slowly, almost methodically, a mysterious thread of pure energy ribbons began to grow between star systems.  A virtual spider web network of interconnecting filaments began to establish themselves throughout the galaxy.  These micro filaments grew into massive netronic conduits for which man and machine could pass from system to system.  These "warp points" become more and more stable as the years went buy.  Finally, some 360 years following the end of the great war man was once again able to travel the stars. 
+Demeanor                                 := Impulsive
+Culture                                  := Preservationists
+Happiness Type                           := Provincials
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := Caspian.txt
+Race Opt 1 Num Characteristics           := 10
+Race Opt 1 Characteristic 1 Type         := Physical Strength
+Race Opt 1 Characteristic 1 Amount       := 95
+Race Opt 1 Characteristic 2 Type         := Intelligence
+Race Opt 1 Characteristic 2 Amount       := 108
+Race Opt 1 Characteristic 3 Type         := Cunning
+Race Opt 1 Characteristic 3 Amount       := 99
+Race Opt 1 Characteristic 4 Type         := Reproduction
+Race Opt 1 Characteristic 4 Amount       := 100
+Race Opt 1 Characteristic 5 Type         := Happiness
+Race Opt 1 Characteristic 5 Amount       := 97
+Race Opt 1 Characteristic 6 Type         := Political Savvy
+Race Opt 1 Characteristic 6 Amount       := 90
+Race Opt 1 Characteristic 7 Type         := Mining Aptitude
+Race Opt 1 Characteristic 7 Amount       := 105
+Race Opt 1 Characteristic 8 Type         := Farming Aptitude
+Race Opt 1 Characteristic 8 Amount       := 100
+Race Opt 1 Characteristic 9 Type         := Refining Aptitude
+Race Opt 1 Characteristic 9 Amount       := 104
+Race Opt 1 Characteristic 10 Type        := Construction Aptitude
+Race Opt 1 Characteristic 10 Amount      := 100
+Race Opt 1 Num Advanced Traits           := 5
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := Rock Natives
+Race Opt 1 Adv Trait 3                   := AI Race
+Race Opt 1 Adv Trait 4                   := Historically Curious
+Race Opt 1 Adv Trait 5                   := Natural Builders
+Race Opt 2 Num Characteristics           := 10
+Race Opt 2 Characteristic 1 Type         := Physical Strength
+Race Opt 2 Characteristic 1 Amount       := 95
+Race Opt 2 Characteristic 2 Type         := Intelligence
+Race Opt 2 Characteristic 2 Amount       := 105
+Race Opt 2 Characteristic 3 Type         := Cunning
+Race Opt 2 Characteristic 3 Amount       := 100
+Race Opt 2 Characteristic 4 Type         := Reproduction
+Race Opt 2 Characteristic 4 Amount       := 100
+Race Opt 2 Characteristic 5 Type         := Happiness
+Race Opt 2 Characteristic 5 Amount       := 100
+Race Opt 2 Characteristic 6 Type         := Political Savvy
+Race Opt 2 Characteristic 6 Amount       := 95
+Race Opt 2 Characteristic 7 Type         := Mining Aptitude
+Race Opt 2 Characteristic 7 Amount       := 110
+Race Opt 2 Characteristic 8 Type         := Farming Aptitude
+Race Opt 2 Characteristic 8 Amount       := 109
+Race Opt 2 Characteristic 9 Type         := Refining Aptitude
+Race Opt 2 Characteristic 9 Amount       := 110
+Race Opt 2 Characteristic 10 Type        := Construction Aptitude
+Race Opt 2 Characteristic 10 Amount      := 100
+Race Opt 2 Num Advanced Traits           := 5
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := Rock Natives
+Race Opt 2 Adv Trait 3                   := AI Race
+Race Opt 2 Adv Trait 4                   := Historically Curious
+Race Opt 2 Adv Trait 5                   := Natural Builders
+Race Opt 3 Num Characteristics           := 10
+Race Opt 3 Characteristic 1 Type         := Physical Strength
+Race Opt 3 Characteristic 1 Amount       := 95
+Race Opt 3 Characteristic 2 Type         := Intelligence
+Race Opt 3 Characteristic 2 Amount       := 105
+Race Opt 3 Characteristic 3 Type         := Cunning
+Race Opt 3 Characteristic 3 Amount       := 100
+Race Opt 3 Characteristic 4 Type         := Reproduction
+Race Opt 3 Characteristic 4 Amount       := 100
+Race Opt 3 Characteristic 5 Type         := Happiness
+Race Opt 3 Characteristic 5 Amount       := 100
+Race Opt 3 Characteristic 6 Type         := Political Savvy
+Race Opt 3 Characteristic 6 Amount       := 95
+Race Opt 3 Characteristic 7 Type         := Mining Aptitude
+Race Opt 3 Characteristic 7 Amount       := 110
+Race Opt 3 Characteristic 8 Type         := Farming Aptitude
+Race Opt 3 Characteristic 8 Amount       := 109
+Race Opt 3 Characteristic 9 Type         := Refining Aptitude
+Race Opt 3 Characteristic 9 Amount       := 110
+Race Opt 3 Characteristic 10 Type        := Construction Aptitude
+Race Opt 3 Characteristic 10 Amount      := 100
+Race Opt 3 Num Advanced Traits           := 5
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := Rock Natives
+Race Opt 3 Adv Trait 3                   := AI Race
+Race Opt 3 Adv Trait 4                   := Historically Curious
+Race Opt 3 Adv Trait 5                   := Natural Builders
+Race Opt 3 Adv Trait 6                   := High Density Urbanites
+
+=======================================================================================
+*END*
+=======================================================================================
+

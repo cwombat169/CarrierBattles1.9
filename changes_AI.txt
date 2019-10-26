@@ -1,0 +1,487 @@
+14.06.08
+* changed satellite computer mount to accept command computers as well as primitive computers.  This prevents satellites from becoming useless when command computers are developed.
+10.04.06
+* added research entries for all of the ruins techs which the AI can make use of
+18.03.06
+* set Planet Combat Defense Modifier := 999
+* added life support ability to soldiers component
+* added crew quarters ability to command bots component
+* added AI-only troop logo component (bridge) to satisfy the bridge req. for AI troops (0kt, 0 structure, 0 cost), Family number 2039
+* changed AI troop designs, Infantry now uses Soldiers, Tanks use the Command Bot, using the LS and CQ tags
+* changed AI troop construction to make a mix of light infantry, heavy infantry and light tanks
+* raised fleet sizes and Maximum Maintenance Percent of Revenue for all races for more ships and bigger fleets
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+17.03.06
+* added proto-mineral scanners, eco-farms, and rad colliders, which function as placeholder and regular extraction facilities, but will be upgraded once the tech is available (good for AI and can reduce human micromanagement if the upgrade button is used), same for system scanners etc.
+* fixed typo: military outposts II-V showed up in Storage category, not Military like Military Outpost I
+* raised the maximum population for all domed worlds to 100, since the AI minister was having fits with 40M worlds
+* disabled stealth fighters from the AI-only hulls, until either the size of the micro fighter or stealth fighter is changed. AI cannot handle two fighter hulls of the same size
+* added AI-only copies of space yards, with component repair removed
+* added AI Tag 06 to Repair Facilities
+* changed AI facility construction, using the new Tag for repair facilities
+* corrected typo with large fighter bays roman numeral, now matches the actual launch rate (10)
+* corrected typos with all fighter bays strategic launch rate, they now match tactical rate
+* added -Mk2 to the names of the smaller fighter drive versions
+* renamed the ship drive reactors: II to X-I, III to II, IV to X-II, V to III and so on. They now correspond with the roman numerals and actual + movement bonus.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+16.03.06
+* changed early Bombers to carry light explosives instead of light nukes, and changed corresponding mount
+* added Repair Ships, they share the Kamikaze Attack Ship class with missile ships. Called by name in construction
+* major overhaul of vehicle construction
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15.03.06
+* added AI Tag 13 to Repair Bay V and higher
+* added AI Tag 14 to Supply Factories
+* added mount for External Planet Nukes on ships = 200
+* changed AI armor mount to use 20cm for all sizes
+* added mount for 80mm Plasma on Ships >= 200
+* added mount for 40mm Torps on Ships >= 200
+* added mount for 20mm Beams on Ships >= 200
+* added mount for 60mm DUC on Ships >= 200
+* added new Strategy: Optimal Weapons Range: Anti-Ship/Fighter
+* fixed a typo with Partly Automized Life Support IV
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14.03.06
+* added AI Tag 08 to plasma weapons to make multigunned(3) interceptors possible
+* added 20mm Plasma Mount for AI Fighters <= 20kt
+* disabled extended range fighters from the AI-only hulls, since the AI won't use the strategic movement (delete before upload)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+13.03.06
+* added Defense Base designs 25kt, 45kt and 75kt, and Base Construction research
+* changed unit construction, AI wasn't using calls by designname, also added a small garrison of troops to all colonies
+* added AI Tag 02 to Light Kinetic Missile
+* added AI Tag 03 to Heavy Kinetic Missile
+* changed 30kt Interceptor design to carry 3 weapons
+* added Point Blank: Anti-Missile/Fighter strategy
+* added AI bridge mounts to simulate placement of a Primitive Command Computer on AI bases
+* changed AI mount for light explosive missiles to min size 80, so heavy sats and DSWPs will use tubes
+
++++++++++++++++++++++++++++++++++++++++
+28.02.2006
+* added AI Tag 09 to all early versions (up to the small S3 version) of fighter engines, this prevents the AI retrobuilding a move 2 design. This also frees up AI Tag 08.
+* added AI Tags to the earlier and bigger version of fighter engines as well, this way the AI can use the better speed sooner and an AI Tag is now directly linked to a certain fighter speed for a design
+* added the following races to race folder (one for each culture): Drushocka, Eee, Terran, Vikings, Ukratal, Phong, Norak, Cuecappa
+* deleted most AI files except for those which personalize each race, all research, designs and construction are going to default (except for the Phong, who are the race for development of the AI). note: the Default_AI_Stategies reflects the Default_AI_DesignCreation and is NOT identical to the DefaultStrategies in /Data folder (which is for human use)
+* added custom speech file for the CueCappa (by Quikngruvn, TDM/Devnull version)
+* deleted unneeded images from Vikings and renamed a few. The DreadnoughtHeavy is now CarrierMassive, the Worldship is the Battleship on so.
+* changed all AI_general files to support CB Mod. note: a few races had their home planets type and atmosphere changed to get a nice distribution (3x Rock, 3x Ice, 2x Gas and 2 of each atmosphere)
+* set all fleets to Break Formation and increased fleet sizes
+* made few tweaks to politics, anger and settings for most races
+* edited settings.txt: removed all races not in the mod (yet), to get rid of a bunch of error messages
+* added neutral races, since they get added in quick start games
+* made AI_general files for the neutrals compatible to CB Mod
+* made all the current Phong files the default_AI, except for General, Anger, Settings, and Politics
+* added norse.txt to /race/Vikings folder (if people don't have it, they can add it manually to dsgnname in /SE4)
+* bleh! due to a sucky default system in SE4, had to put back copies of the default_AI in each race folder
+
+
+++++++++++++++++++++++++++++++++++++++
+27.02.2006
+* added some repair priorities, so the file isn't empty
+* added partly automized LS and CQ, for AI only, since it couldn't handle the System Automation components
+* added AI only cockpit and cockpit extension
+* added mount for 20mm Beams on Fighters = 30
+* added mount for external racks for Light Kinetic Missiles on Fighters = 30
+* changed weapon family number for Light Kinetic Missile form 21 to 28 (was same as heavy Kin Missile)
+* changed weapon family number for DU Pistol from 12 to 11 (was the same as Multimode Grenade)
+* added AI Tag 07 to Fighter Armor II-V (same as for Fighter Armor I, was just an oversight earlier)
+* added AI Tag 01 (Armor) to Ceramic Composite Armor Plating (was missing)
++++++++++++++++++++++++++++++++++++++++
+26.02.2006
+* fixed a typo(?) in settings: Intelligence treshhold and point cost mixed up
+* changed AI torp mount to max size 160, will probably use torps for heavier mount starting at 200+
+* added mount for light nukes on all fighters
+* added mount for 20mm Torpedoes on Fighters <= 20
+* added AI Tag 08 to fighter engine S2
+* added AI Tag 09 to fighter engine S3 (smalller 5kt version)
+* added AI Tag 10 to fighter engine S4 (smalller 6kt version)
+* added AI Tag 11 to fighter engine S5 (smalller 7kt version)
+* added AI Tag 12 to fighter engine S6 (smalller 8kt version)
+note: It is recommended that an AI modder uses the AI Tags as 'must have' abilities and not add Combat Movement as misc ability to fighters. This way a certain speed can be set for a certain design.
+* from SJ: added slum facility
+* added AI mount for 60mm Beams on Ships <= 160
+* added AI mount for 40mm DUCs on Ships <= 160
++++++++++++++++++++++++++++++++++++++++
+25.02.2006
+* added AI race tech area
+
+vehicle size
+* added copies of carrier hulls, with lower % for fighter bays and cargo requirement removed (this was needed to have the AI make designs that actually obey the rules for humans, and use carrier hulls at all)
+* addies copies of fighter hulls for AI with the cargo requirement removed
+
+facilities
+* added AI Tag 05 to mixed Storage
+* added additional copies of Spaceport and Resupply for AI with bogus tech requirements
+
+components
+* changed master computer to ship bridge for Primitive Command Computer
+* AI Tag 07 = fighter armor
+
+mounts
+* added some AI Only mounts, list of all mounts added (also later one) is below
++++++++++++++++++++++++++++++++++++++++++
+complete list of AI mounts: 
+
+Long Name                      := AI Satellite Bridge Mount
+Short Name                     := SatCom
+Description                    := Allows a bridge to be placed on satellites at reduced size and cost.
+Code                           := SCI
+Comp Family Requirement		 := 2
+Cost Percent                   := 8
+Tonnage Percent                := 20
+Tonnage Structure Percent      := 50
+Damage Percent                 := 100
+Supply Percent                 := 100
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 25
+Vehicle Size Maximum           := 25
+Weapon Type Requirement        := None
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := AI Heavy Satellite Bridge Mount
+Short Name                     := SatCom
+Description                    := Allows a bridge to be placed on satellites at reduced size and cost.
+Code                           := SCI
+Comp Family Requirement		 := 2
+Cost Percent                   := 16
+Tonnage Percent                := 40
+Tonnage Structure Percent      := 50
+Damage Percent                 := 100
+Supply Percent                 := 100
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 45
+Vehicle Size Maximum           := 45
+Weapon Type Requirement        := None
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := AI Weapons Platform Bridge Mount
+Short Name                     := SatCom
+Description                    := Allows a bridge to be placed on satellites at reduced size and cost.
+Code                           := SCI
+Comp Family Requirement		 := 2
+Cost Percent                   := 32
+Tonnage Percent                := 80
+Tonnage Structure Percent      := 50
+Damage Percent                 := 100
+Supply Percent                 := 100
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 75
+Vehicle Size Maximum           := 75
+Weapon Type Requirement        := None
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 20cm Armor AI allShips
+Short Name                     := 20cm
+Description                    := Armor is layered on in 20cm thick plates, excellent for basic defense.
+Code                           := 20cm
+Cost Percent                   := 100
+Tonnage Percent                := 100
+Tonnage Structure Percent      := 100
+Damage Percent                 := 100
+Supply Percent                 := 100
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 0
+Vehicle Size Maximum           := 2000
+Weapon Type Requirement        := None
+Comp Family Requirement        := 994
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := External Light Expl. Missile AI Ships >= 80
+Short Name                     := External Rack
+Description                    := A rack of single-use launchers are placed on the outside of a vehicle.  Although this is somewhat wasteful of hardware, it provides a significant savings in terms of tonnage.
+Code                           := X
+Cost Percent                   := 100
+Tonnage Percent                := 50
+Tonnage Structure Percent      := 100
+Damage Percent                 := 100
+Supply Percent                 := 150
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 80
+Weapon Type Requirement        := Seeking
+Comp Family Requirement		 := 1501
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := External Light Expl. Missile AI Fighters <= 20
+Short Name                     := External Rack
+Description                    := A rack of single-use launchers are placed on the outside of a vehicle.  Although this is somewhat wasteful of hardware, it provides a significant savings in terms of tonnage.
+Code                           := X
+Cost Percent                   := 100
+Tonnage Percent                := 50
+Tonnage Structure Percent      := 100
+Damage Percent                 := 100
+Supply Percent                 := 100
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 1
+Vehicle Size Maximum           := 20
+Weapon Type Requirement        := Seeking
+Comp Family Requirement		 := 1501
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Fighter
+
+Long Name                      := 20mm Torpedo AI Fighters <= 20
+Short Name                     := 20mm
+Description                    := Cannons are fit to 20mm aperture specifications.  Damage -50%.  Accuracy +10%
+Code                           := 20mm
+Cost Percent                   := 2
+Tonnage Percent                := 2
+Tonnage Structure Percent      := 0
+Damage Percent                 := 1
+Supply Percent                 := 2
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 10
+Vehicle Size Minimum           := 1
+Vehicle Size Maximum           := 20
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2031
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Fighter
+
+Long Name                      := 20mm Torpedo AI Ships <=160
+Short Name                     := 20mm
+Description                    := Cannons are fit to 20mm aperture specifications.  Accuracy +40%.  Light anti-unit size.  Good for shooting down missiles and small fighters. 
+Code                           := 20mm
+Cost Percent                   := 2
+Tonnage Percent                := 2
+Tonnage Structure Percent      := 2
+Damage Percent                 := 2
+Supply Percent                 := 2
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 40
+Vehicle Size Minimum           := 1
+Vehicle Size Maximum           := 160
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2031
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 60mm Beam AI Ships <= 160
+Short Name                     := 60mm
+Description                    := Cannons are fit to 60mm aperture specifications.  Damage +50%.  Light anti-ship sized weapon, good against support ships and other small, shielded targets.
+Code                           := 60mm
+Cost Percent                   := 18
+Tonnage Percent                := 18
+Tonnage Structure Percent      := 18
+Damage Percent                 := 27
+Supply Percent                 := 18
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 1
+Vehicle Size Maximum           := 160
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2028
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 40mm DUC AI Ships <=160
+Short Name                     := 40mm
+Description                    := Cannons are fit to 40mm aperture specifications.  Damage +25%.  Accuracy +20%.  Heavy anti-unit size.  Good for blasting heavy fighters.
+Code                           := 40mm
+Cost Percent                   := 8
+Tonnage Percent                := 8
+Tonnage Structure Percent      := 8
+Damage Percent                 := 10
+Supply Percent                 := 8
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 20
+Vehicle Size Minimum           := 8
+Vehicle Size Maximum           := 160
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2027
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 20mm Beams AI Fighters = 30
+Short Name                     := 20mm
+Description                    := Cannons are fit to 20mm aperture specifications.  Damage -50%.  Accuracy +10%
+Code                           := 20mm
+Cost Percent                   := 2
+Tonnage Percent                := 2
+Tonnage Structure Percent      := 0
+Damage Percent                 := 1
+Supply Percent                 := 2
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 10
+Vehicle Size Minimum           := 30
+Vehicle Size Maximum           := 30
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2028
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Fighter
+
+Long Name                      := External Missile Light Kinetic AI Fighters = 30
+Short Name                     := External Rack
+Description                    := A rack of single-use launchers are placed on the outside of a vehicle.  Although this is somewhat wasteful of hardware, it provides a significant savings in terms of tonnage.
+Code                           := X
+Cost Percent                   := 100
+Tonnage Percent                := 50
+Tonnage Structure Percent      := 100
+Damage Percent                 := 100
+Supply Percent                 := 100
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 30
+Vehicle Size Maximum           := 30
+Weapon Type Requirement        := Seeking
+Comp Family Requirement		 := 1500
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Fighter
+
+Long Name                      := 20mm Plasma AI Fighters <= 20
+Short Name                     := 20mm
+Description                    := Cannons are fit to 20mm aperture specifications.  Damage -50%.  Accuracy +10%
+Code                           := 20mm
+Cost Percent                   := 2
+Tonnage Percent                := 2
+Tonnage Structure Percent      := 0
+Damage Percent                 := 1
+Supply Percent                 := 2
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 10
+Vehicle Size Minimum           := 1
+Vehicle Size Maximum           := 20
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2032
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Fighter
+
+Long Name                      := External Missile Planet Nukes AI Ships = 200
+Short Name                     := External Rack
+Description                    := A rack of single-use launchers are placed on the outside of a vehicle.  Although this is somewhat wasteful of hardware, it provides a significant savings in terms of tonnage.
+Code                           := X
+Cost Percent                   := 100
+Tonnage Percent                := 50
+Tonnage Structure Percent      := 100
+Damage Percent                 := 100
+Supply Percent                 := 150
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 200
+Vehicle Size Maximum           := 200
+Weapon Type Requirement        := Seeking
+Comp Family Requirement		 := 1522
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 80mm Plasma AI Ship >= 200
+Short Name                     := 80mm
+Description                    := Cannons are fit to 80mm aperture specifications.  Damage +70%.  Range +1.  Accuracy -10%.  Large anti-ship size, good against carriers and other large targets.  
+Code                           := 80mm
+Cost Percent                   := 32
+Tonnage Percent                := 32
+Tonnage Structure Percent      := 32
+Damage Percent                 := 54
+Supply Percent                 := 32
+Range Modifier                 := 1
+Weapon To Hit Modifier         := -10
+Vehicle Size Minimum           := 200
+Vehicle Size Maximum           := 2000
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2032
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 40mm Torps AI Ships >=200
+Short Name                     := 40mm
+Description                    := Cannons are fit to 40mm aperture specifications.  Damage +25%.  Accuracy +20%.  Heavy anti-unit size.  Good for blasting heavy fighters.
+Code                           := 40mm
+Cost Percent                   := 8
+Tonnage Percent                := 8
+Tonnage Structure Percent      := 8
+Damage Percent                 := 10
+Supply Percent                 := 8
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 20
+Vehicle Size Minimum           := 200
+Vehicle Size Maximum           := 2000
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2031
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 20mm Laser AI Ships >=200
+Short Name                     := 20mm
+Description                    := Cannons are fit to 20mm aperture specifications.  Accuracy +40%.  Light anti-unit size.  Good for shooting down missiles and small fighters. 
+Code                           := 20mm
+Cost Percent                   := 2
+Tonnage Percent                := 2
+Tonnage Structure Percent      := 2
+Damage Percent                 := 2
+Supply Percent                 := 2
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 40
+Vehicle Size Minimum           := 200
+Vehicle Size Maximum           := 2000
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2028
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship
+
+Long Name                      := 60mm DUC AI Ships >= 200
+Short Name                     := 60mm
+Description                    := Cannons are fit to 60mm aperture specifications.  Damage +50%.  Light anti-ship sized weapon, good against support ships and other small, shielded targets.
+Code                           := 60mm
+Cost Percent                   := 18
+Tonnage Percent                := 18
+Tonnage Structure Percent      := 18
+Damage Percent                 := 27
+Supply Percent                 := 18
+Range Modifier                 := 0
+Weapon To Hit Modifier         := 0
+Vehicle Size Minimum           := 200
+Vehicle Size Maximum           := 2000
+Weapon Type Requirement        := Direct Fire
+Comp Family Requirement		 := 2027
+Number of Tech Req		 := 1
+Tech Area Req 1			 := AI Race
+Tech Level Req 1			 := 1
+Vehicle Type                   := Ship

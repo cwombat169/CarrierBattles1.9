@@ -1,0 +1,113 @@
+=======================================================================================
+AI DATA FILE -
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Alliance to restore the Republic
+Description                              := A long time ago, in a galaxy far far away.. evil gained power and the Rebellion was born to fight it.
+Empire Name                              := Rebel
+Empire Type                              := Alliance
+Emperor Name                             := Gail Organa
+Emperor Title                            := Supreme Commander
+Biological Description                   := Rebellion population is comprised of many thousands of species from humans to wookies. However the Rebel Fleet is mostly garrisoned by humans and specially trained alien officers from many of the rim and inner belt worlds of the Empire. 
+Society Description                      := The Rebels want to bring about the restoration of the Republic which re-organized into the Galactic Empire by the Dark Lords of the Sith. The Rebels are lead by a former Senator and are mostly a militaristic force with a standard military chain of command. The rebels believe that they are fighting for the cause of good, and hope to one day restore the ideals and principals of the Republic and to once again employ the Jedi Order as the guardians of peace.
+General History Description              := Following the creation of the Empire and the whole sale slaughter of the Jedi, many peace loving senators banded together to form the Rebellion.  Over the years the Rebel's have grown powerful enough to openly challenge and engage Imperial forces across the galaxy.  With more and more worlds turning toward the Rebellion and the ideals that it values the Empire has been forced to grow more violent in its response.  This in turn has only strengthened the Rebellion and made it more powerful. 
+Demeanor                                 := Impulsive
+Culture                                  := Preservationists
+Happiness Type                           := Provincial
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := Rebellion.txt
+Race Opt 1 Num Characteristics           := 10
+Race Opt 1 Characteristic 1 Type         := Physical Strength
+Race Opt 1 Characteristic 1 Amount       := 96
+Race Opt 1 Characteristic 2 Type         := Intelligence
+Race Opt 1 Characteristic 2 Amount       := 105
+Race Opt 1 Characteristic 3 Type         := Cunning
+Race Opt 1 Characteristic 3 Amount       := 100
+Race Opt 1 Characteristic 4 Type         := Reproduction
+Race Opt 1 Characteristic 4 Amount       := 100
+Race Opt 1 Characteristic 5 Type         := Happiness
+Race Opt 1 Characteristic 5 Amount       := 100
+Race Opt 1 Characteristic 6 Type         := Political Savvy
+Race Opt 1 Characteristic 6 Amount       := 95
+Race Opt 1 Characteristic 7 Type         := Mining Aptitude
+Race Opt 1 Characteristic 7 Amount       := 105
+Race Opt 1 Characteristic 8 Type         := Farming Aptitude
+Race Opt 1 Characteristic 8 Amount       := 100
+Race Opt 1 Characteristic 9 Type         := Refining Aptitude
+Race Opt 1 Characteristic 9 Amount       := 105
+Race Opt 1 Characteristic 10 Type        := Construction Aptitude
+Race Opt 1 Characteristic 10 Amount      := 100
+Race Opt 1 Num Advanced Traits           := 5
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := Rock Natives
+Race Opt 1 Adv Trait 3                   := AI Race
+Race Opt 1 Adv Trait 4                   := Historically Curious
+Race Opt 1 Adv Trait 5                   := Natural Builders
+Race Opt 2 Num Characteristics           := 10
+Race Opt 2 Characteristic 1 Type         := Physical Strength
+Race Opt 2 Characteristic 1 Amount       := 96
+Race Opt 2 Characteristic 2 Type         := Intelligence
+Race Opt 2 Characteristic 2 Amount       := 105
+Race Opt 2 Characteristic 3 Type         := Cunning
+Race Opt 2 Characteristic 3 Amount       := 100
+Race Opt 2 Characteristic 4 Type         := Reproduction
+Race Opt 2 Characteristic 4 Amount       := 100
+Race Opt 2 Characteristic 5 Type         := Happiness
+Race Opt 2 Characteristic 5 Amount       := 100
+Race Opt 2 Characteristic 6 Type         := Political Savvy
+Race Opt 2 Characteristic 6 Amount       := 95
+Race Opt 2 Characteristic 7 Type         := Mining Aptitude
+Race Opt 2 Characteristic 7 Amount       := 110
+Race Opt 2 Characteristic 8 Type         := Farming Aptitude
+Race Opt 2 Characteristic 8 Amount       := 105
+Race Opt 2 Characteristic 9 Type         := Refining Aptitude
+Race Opt 2 Characteristic 9 Amount       := 105
+Race Opt 2 Characteristic 10 Type        := Construction Aptitude
+Race Opt 2 Characteristic 10 Amount      := 100
+Race Opt 2 Num Advanced Traits           := 5
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := Rock Natives
+Race Opt 2 Adv Trait 3                   := AI Race
+Race Opt 2 Adv Trait 4                   := Historically Curious
+Race Opt 2 Adv Trait 5                   := Natural Builders
+Race Opt 3 Num Characteristics           := 10
+Race Opt 3 Characteristic 1 Type         := Physical Strength
+Race Opt 3 Characteristic 1 Amount       := 96
+Race Opt 3 Characteristic 2 Type         := Intelligence
+Race Opt 3 Characteristic 2 Amount       := 108
+Race Opt 3 Characteristic 3 Type         := Cunning
+Race Opt 3 Characteristic 3 Amount       := 100
+Race Opt 3 Characteristic 4 Type         := Reproduction
+Race Opt 3 Characteristic 4 Amount       := 100
+Race Opt 3 Characteristic 5 Type         := Happiness
+Race Opt 3 Characteristic 5 Amount       := 100
+Race Opt 3 Characteristic 6 Type         := Political Savvy
+Race Opt 3 Characteristic 6 Amount       := 100
+Race Opt 3 Characteristic 7 Type         := Mining Aptitude
+Race Opt 3 Characteristic 7 Amount       := 110
+Race Opt 3 Characteristic 8 Type         := Farming Aptitude
+Race Opt 3 Characteristic 8 Amount       := 104
+Race Opt 3 Characteristic 9 Type         := Refining Aptitude
+Race Opt 3 Characteristic 9 Amount       := 110
+Race Opt 3 Characteristic 10 Type        := Construction Aptitude
+Race Opt 3 Characteristic 10 Amount      := 100
+Race Opt 3 Num Advanced Traits           := 8
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := Rock Natives
+Race Opt 3 Adv Trait 3                   := AI Race
+Race Opt 3 Adv Trait 4                   := Historically Curious
+Race Opt 3 Adv Trait 5                   := Natural Builders
+Race Opt 3 Adv Trait 6                   := Good Samaritans
+Race Opt 3 Adv Trait 7                   := Natural Merchants
+Race Opt 3 Adv Trait 8                   := Supply Misers
+
+=======================================================================================
+*END*
+=======================================================================================
+

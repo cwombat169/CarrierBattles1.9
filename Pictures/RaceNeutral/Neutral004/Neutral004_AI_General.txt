@@ -1,0 +1,74 @@
+=======================================================================================
+AI DATA FILE - Netural
+=======================================================================================
+
+Demeanor:
+  Psychotic, Violent, Aggressive, Impulsive, Neutral, Friendly, 
+  Honorable, Serene
+
+Culture:
+  Neutral, Berzerkers, Warriors, Traders, Politicians, Artisans, 
+  Scientists, Workers, Schemers, Zealots, Engineers, Merchants, 
+  Renegades, Xenophobes
+
+Planet Type:
+  Rock, Ice, Gas Giant
+
+Atmosphere:
+  None, Methane, Oxygen, Hydrogen, Carbon Dioxide
+
+Characteristics:
+  Physical Strength, Intelligence, Cunning, Environmental Resistance,
+  Reproduction, Happiness, Aggressiveness, Defensiveness, Political Savvy,
+  Mining Aptitude, Farming Aptitude, Refining Aptitude, Construction Aptitude,
+  Repair Aptitude, Maintenance Aptitude
+
+Adv Traits:
+  Advanced Power Conservation, Mechanoids, Lucky, Natural Merchants, 
+  Propulsion Experts, Ancient Race, Advanced Storage Techniques, 
+  Hardy Spacefarrers, Psychic, Deeply Religious, Temporal Knowledge, 
+  Crystallurgy, Emotionless
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Cluk-Ruk Republic
+Description                              := An aquatic species that is very peaceful and friendly.
+Empire Name                              := Cluk-Ruk
+Empire Type                              := Republic
+Emperor Name                             := Cluk-Tandra
+Emperor Title                            := Premier
+Biological Description                   := The Cluk-Ruk are an aquatic species which spend move of their lives underwater. Their bodies are a semi-translucent blue color with a humanoid head and an elloganted body with several extended flippers. They have an average lifespan of about 40 years. 
+Society Description                      := The Cluk-Ruk are organized into a republic of large states which cover their homeworld. They are ruled by a premier which is elected every 12 years. Though they can sometimes be united with a common goal, their states are usually quite independent in their actions. 
+General History Description              := The history of the Cluk-Ruk is a mostly peaceful one. Their society never developed weapons of mass destruction so their wars were quite limited. They have recently developed spaceflight, but have no knowledge of warp points. 
+Demeanor                                 := Friendly
+Culture                                  := Neutral
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Methane
+Design Name File                         := Alberta.txt
+Race Opt 1 Num Characteristics           := 0
+Race Opt 1 Num Advanced Traits           := 4
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := AI Race
+Race Opt 1 Adv Trait 3                   := Rock Natives
+Race Opt 1 Adv Trait 4                   := Impersonal Society
+Race Opt 2 Num Characteristics           := 0
+Race Opt 2 Num Advanced Traits           := 4
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := AI Race
+Race Opt 2 Adv Trait 3                   := Rock Natives
+Race Opt 2 Adv Trait 4                   := Impersonal Society
+Race Opt 3 Num Characteristics           := 0
+Race Opt 3 Num Advanced Traits           := 4
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := AI Race
+Race Opt 3 Adv Trait 3                   := Rock Natives
+Race Opt 3 Adv Trait 4                   := Impersonal Society
+
+=======================================================================================
+*END*
+=======================================================================================
+

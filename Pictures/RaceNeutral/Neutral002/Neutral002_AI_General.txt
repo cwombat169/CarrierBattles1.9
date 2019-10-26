@@ -1,0 +1,74 @@
+=======================================================================================
+AI DATA FILE - Netural
+=======================================================================================
+
+Demeanor:
+  Psychotic, Violent, Aggressive, Impulsive, Neutral, Friendly, 
+  Honorable, Serene
+
+Culture:
+  Neutral, Berzerkers, Warriors, Traders, Politicians, Artisans, 
+  Scientists, Workers, Schemers, Zealots, Engineers, Merchants, 
+  Renegades, Xenophobes
+
+Planet Type:
+  Rock, Ice, Gas Giant
+
+Atmosphere:
+  None, Methane, Oxygen, Hydrogen, Carbon Dioxide
+
+Characteristics:
+  Physical Strength, Intelligence, Cunning, Environmental Resistance,
+  Reproduction, Happiness, Aggressiveness, Defensiveness, Political Savvy,
+  Mining Aptitude, Farming Aptitude, Refining Aptitude, Construction Aptitude,
+  Repair Aptitude, Maintenance Aptitude
+
+Adv Traits:
+  Advanced Power Conservation, Mechanoids, Lucky, Natural Merchants, 
+  Propulsion Experts, Ancient Race, Advanced Storage Techniques, 
+  Hardy Spacefarrers, Psychic, Deeply Religious, Temporal Knowledge, 
+  Crystallurgy, Emotionless
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Nultoh Group
+Description                              := A small race artisans with very advanced sight. 
+Empire Name                              := Nultoh
+Empire Type                              := Group
+Emperor Name                             := Passat
+Emperor Title                            := Chairman
+Biological Description                   := The Nultoh are a humanoid species that have very large heads and very small bodies. They are on average only 4 feet tall and have very little physical strength. They do possess very large craniums and a high degree of intelligence. They are most known for their unusual eyes which allow them to see a large portion of the EM spectrum at one time. 
+Society Description                      := The Nultoh are a race of mostly scientists that spend a dominant part of their time researching the Electro-Magnetic spectrum. Because of the physical ability to view the spectrum, they find researching it to be one of the highest pursuits possible. They don't have much of a social order with all individuals not interested in much beyond research. 
+General History Description              := The Nultoh have no history beyond their home system. Besides the great advances they've made in spectrum manipulation, not much of interest has happened to this species. They have never left their home system as they don't have any real interest in exploration. 
+Demeanor                                 := Honorable
+Culture                                  := Neutral
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Hydrogen
+Design Name File                         := Alabama.txt
+Race Opt 1 Num Characteristics           := 0
+Race Opt 1 Num Advanced Traits           := 4
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := AI Race
+Race Opt 1 Adv Trait 3                   := Rock Natives
+Race Opt 1 Adv Trait 4                   := Impersonal Society
+Race Opt 2 Num Characteristics           := 0
+Race Opt 2 Num Advanced Traits           := 4
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := AI Race
+Race Opt 2 Adv Trait 3                   := Rock Natives
+Race Opt 2 Adv Trait 4                   := Impersonal Society
+Race Opt 3 Num Characteristics           := 0
+Race Opt 3 Num Advanced Traits           := 4
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := AI Race
+Race Opt 3 Adv Trait 3                   := Rock Natives
+Race Opt 3 Adv Trait 4                   := Impersonal Society
+
+=======================================================================================
+*END*
+=======================================================================================
+

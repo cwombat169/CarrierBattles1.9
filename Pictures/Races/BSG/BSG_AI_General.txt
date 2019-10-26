@@ -1,0 +1,111 @@
+=======================================================================================
+AI DATA FILE - BSG
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Colonial Fleet
+Description                              := The Colonials are an alliance of many different cultures dedicated to a common goal; survival of man kind. The Colonials have increased combat and production abilities. They are aggressive warriors with advanced construction abilities.
+Empire Name                              := Colonial Fleet
+Empire Type                              := Alliance
+Emperor Name                             := Joseph Alan Adama II
+Emperor Title                            := President
+Biological Description                   := Human with an average life span of 120 years.  Average height 2.0 meters.
+Society Description                      := Colonial society is loosely based upon a republic with elected officials representing the majority of the population. An elected President and appointed cabinet.
+General History Description              := The twelve colonies of the Colonial Republic were attacked and destroyed by a race of machines known as the Cylons.  Following this attack a fleet of some two hundred ships, lead by a soon to be retired military commander escaped into the vastness of space.  After nearly twenty years on the run the fleet found a new home world.  Using every last ship as a resource a new colony was founded.  Fearing that the Cylon’s would find and attack them, the majority voted to dismantle the entire fleet, including military ships, and adopt a philosophy of isolation.  For nearly four hundred years they lived in peace.  But now with the resources of their world dwindling, they must once again look to the stars.
+Demeanor                                 := Friendly
+Culture                                  := Efficient Workers
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := BSG.txt
+Race Opt 1 Num Characteristics           := 10
+Race Opt 1 Characteristic 1 Type         := Physical Strength
+Race Opt 1 Characteristic 1 Amount       := 95
+Race Opt 1 Characteristic 2 Type         := Intelligence
+Race Opt 1 Characteristic 2 Amount       := 106
+Race Opt 1 Characteristic 3 Type         := Cunning
+Race Opt 1 Characteristic 3 Amount       := 100
+Race Opt 1 Characteristic 4 Type         := Reproduction
+Race Opt 1 Characteristic 4 Amount       := 100
+Race Opt 1 Characteristic 5 Type         := Happiness
+Race Opt 1 Characteristic 5 Amount       := 102
+Race Opt 1 Characteristic 6 Type         := Political Savvy
+Race Opt 1 Characteristic 6 Amount       := 90
+Race Opt 1 Characteristic 7 Type         := Mining Aptitude
+Race Opt 1 Characteristic 7 Amount       := 105
+Race Opt 1 Characteristic 8 Type         := Farming Aptitude
+Race Opt 1 Characteristic 8 Amount       := 101
+Race Opt 1 Characteristic 9 Type         := Refining Aptitude
+Race Opt 1 Characteristic 9 Amount       := 105
+Race Opt 1 Characteristic 10 Type        := Construction Aptitude
+Race Opt 1 Characteristic 10 Amount      := 100
+Race Opt 1 Num Advanced Traits           := 5
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := Rock Natives
+Race Opt 1 Adv Trait 3                   := AI Race
+Race Opt 1 Adv Trait 4                   := Historically Curious
+Race Opt 1 Adv Trait 5                   := Natural Builders
+Race Opt 2 Num Characteristics           := 10
+Race Opt 2 Characteristic 1 Type         := Physical Strength
+Race Opt 2 Characteristic 1 Amount       := 95
+Race Opt 2 Characteristic 2 Type         := Intelligence
+Race Opt 2 Characteristic 2 Amount       := 107
+Race Opt 2 Characteristic 3 Type         := Cunning
+Race Opt 2 Characteristic 3 Amount       := 100
+Race Opt 2 Characteristic 4 Type         := Reproduction
+Race Opt 2 Characteristic 4 Amount       := 100
+Race Opt 2 Characteristic 5 Type         := Happiness
+Race Opt 2 Characteristic 5 Amount       := 105
+Race Opt 2 Characteristic 6 Type         := Political Savvy
+Race Opt 2 Characteristic 6 Amount       := 91
+Race Opt 2 Characteristic 7 Type         := Mining Aptitude
+Race Opt 2 Characteristic 7 Amount       := 110
+Race Opt 2 Characteristic 8 Type         := Farming Aptitude
+Race Opt 2 Characteristic 8 Amount       := 105
+Race Opt 2 Characteristic 9 Type         := Refining Aptitude
+Race Opt 2 Characteristic 9 Amount       := 110
+Race Opt 2 Characteristic 10 Type        := Construction Aptitude
+Race Opt 2 Characteristic 10 Amount      := 100
+Race Opt 2 Num Advanced Traits           := 5
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := Rock Natives
+Race Opt 2 Adv Trait 3                   := AI Race
+Race Opt 2 Adv Trait 4                   := Historically Curious
+Race Opt 2 Adv Trait 5                   := Natural Builders
+Race Opt 3 Num Characteristics           := 10
+Race Opt 3 Characteristic 1 Type         := Physical Strength
+Race Opt 3 Characteristic 1 Amount       := 95
+Race Opt 3 Characteristic 2 Type         := Intelligence
+Race Opt 3 Characteristic 2 Amount       := 107
+Race Opt 3 Characteristic 3 Type         := Cunning
+Race Opt 3 Characteristic 3 Amount       := 100
+Race Opt 3 Characteristic 4 Type         := Reproduction
+Race Opt 3 Characteristic 4 Amount       := 100
+Race Opt 3 Characteristic 5 Type         := Happiness
+Race Opt 3 Characteristic 5 Amount       := 105
+Race Opt 3 Characteristic 6 Type         := Political Savvy
+Race Opt 3 Characteristic 6 Amount       := 91
+Race Opt 3 Characteristic 7 Type         := Mining Aptitude
+Race Opt 3 Characteristic 7 Amount       := 110
+Race Opt 3 Characteristic 8 Type         := Farming Aptitude
+Race Opt 3 Characteristic 8 Amount       := 105
+Race Opt 3 Characteristic 9 Type         := Refining Aptitude
+Race Opt 3 Characteristic 9 Amount       := 110
+Race Opt 3 Characteristic 10 Type        := Construction Aptitude
+Race Opt 3 Characteristic 10 Amount      := 100
+Race Opt 3 Num Advanced Traits           := 6
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := Rock Natives
+Race Opt 3 Adv Trait 3                   := AI Race
+Race Opt 3 Adv Trait 4                   := Historically Curious
+Race Opt 3 Adv Trait 5                   := Natural Builders
+Race Opt 3 Adv Trait 6                   := High Density Urbanites
+
+=======================================================================================
+*END*
+=======================================================================================
+

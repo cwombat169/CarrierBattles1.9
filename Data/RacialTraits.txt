@@ -1,0 +1,329 @@
+=======================================================================================
+RACIAL TRAITS DATA FILE
+=======================================================================================
+
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                  := SpaceFaring Race
+Description           := This race has advanced far enough to spread through and colonize space.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := -10000
+Trait Type            := Supply Cost
+Value 1               := 0
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Rock Natives
+Description           := This race was spawned on a Rock planet.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 10000
+Trait Type            := Tech Area
+Value 1               := 1
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Ice Natives
+Description           := This race was spawned on an Ice planet.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 10000
+Trait Type            := Tech Area
+Value 1               := 2
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Gas Giant Natives
+Description           := This race was spawned on a Gas Giant planet.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 10000
+Trait Type            := Tech Area
+Value 1               := 3
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Good Samaritans
+Description           := This race can develop and use helpful intel projects.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 200
+Trait Type            := Tech Area
+Value 1               := 5
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Historically Curious
+Description           := This race is curious enough to investigate ancient ruins, but has no particular skill at understanding them.  Note: Do not take this trait if you have Xenoarchaeologists or High Tech Scavengers.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 0
+Trait Type            := Tech Area
+Value 1               := 6
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := High Tech Scavengers
+Description           := This race is highly skilled at scavenging technology, and can make better use of ancient devices than most races.  Note: Do not take this trait if you have Xenoarchaeologists or Historically Curious
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 400
+Trait Type            := Tech Area
+Value 1               := 7
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Xenoarchaeologists
+Description           := This race has thought processes similar to that of the ancients, and can easily glean knowledge from ancient ruins.  NOTE: This trait obsoletes High Tech Scavengers or Historically Curious.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 700
+Trait Type            := Tech Area
+Value 1               := 8
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Supply Misers
+Description           := Tight conservation measures make supplies last 25% longer.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 750
+Trait Type            := Supply Cost
+Value 1               := -25
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Savant Quartermasters
+Description           := Packing precisely the right items makes supplies appear to last 25% longer.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 1250
+Trait Type            := Supply Cost
+Value 1               := -25
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Impersonal Society
+Description           := Plagues cannot spread on your colonies due to lack of contact between people.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 750
+Trait Type            := No Plagues
+Value 1               := 0
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Natural Merchants
+Description           := Systems do not require spaceports to get resources to the Empire.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 500
+Trait Type            := No Spaceports
+Value 1               := 0
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Firearms Enthusiasts
+Description           := Keen knowledge of weapon systems allows bigger and better weapons.  Allows access to 150mm weapon mounts.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 500
+Trait Type            := Tech Area
+Value 1               := 10
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Gun Nuts
+Description           := Only the biggest and deadliest will satisfy you.  Allows access to 200mm weapon mounts.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 250
+Trait Type            := Tech Area
+Value 1               := 11
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Natural Builders
+Description           := Cultural focus on manufacturing provides +500 to planetary yard rates and +100/20/100 to space yard rates.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 1500
+Trait Type            := Tech Area
+Value 1               := 9
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Propulsion Experts
+Description           := Skilled engineers can coax one additional movement point out of any ship's drive.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 1250
+Trait Type            := Vehicle Speed
+Value 1               := 1
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Savant Navigators
+Description           := Genius navigators save one movement point per month while travelling through space.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 1750
+Trait Type            := Vehicle Speed
+Value 1               := 1
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Dedicated Astronomers
+Description           := Your empire has observed the stars for millenia before venturing into space, and has even mapped the other starsystems of the galaxy.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 1000
+Trait Type            := Galaxy Seen
+Value 1               := 0
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := High Density Urbanites
+Description           := More efficient use of space increases planetary storage space on planets by 20%
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 2000
+Trait Type            := Planet Storage Space
+Value 1               := 20
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := Emotionless
+Description           := Populations do not grow angry or happy.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 2000
+Trait Type            := Population Emotionless
+Value 1               := 0
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+Name                  := AI Race
+Description           := This race is an AI, and sees weapon mounts in a different order to help with ship design.
+Pic Num               := 0
+General Type          := Advantage
+Cost                  := 0
+Trait Type            := Tech Area
+Value 1               := 4
+Value 2               := 0
+Required Trait 1      := None
+Required Trait 2      := None
+Required Trait 3      := None
+Restricted Trait 1    := None
+Restricted Trait 2    := None
+Restricted Trait 3    := None
+
+=======================================================================================
+*END*
+=======================================================================================
+

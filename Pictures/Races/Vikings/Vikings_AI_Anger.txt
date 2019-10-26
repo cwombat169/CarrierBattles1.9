@@ -1,0 +1,93 @@
+=======================================================================================
+AI ANGER DATA FILE - Vikings
+=======================================================================================
+
+This file governs how the anger of an empire changes based on different events
+caused by another player. Amounts can be positive or negative changes to the current
+anger level with the responsible player. 
+
+Per Attack Location
+  Amount per planet of another player that we want. 
+
+Per No Treaty Ship
+  Increase anger by X for every ship of a none treaty race in our claimed territory
+
+Per Ally Ship
+  Increase anger by X for every ship of an ally race in our claimed territory
+
+Per Enemy Ship
+  Increase anger by X for every ship of an enemy race in our claimed territory
+
+Regular Decrease   
+  Anger naturally decreases over time.
+
+Combat ...
+  Combat with the player resulted in this.
+
+Intelligence Against Us
+  Player committed an intelligence act against us.
+
+Receive X
+  A message of a given type was received from the player.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Per Attack Location                                                 := 3
+Per No Treaty Ship                                                  := 1
+Per Ally Ship                                                       := 0
+Per Enemy Ship                                                      := 2
+Minimum Anger                                                       := 0
+Regular Decrease                                                    := -3
+Mega Evil Empire                                                    := 50
+Combat Attacking Won                                                := 0
+Combat Attacking Lost                                               := 5
+Combat Attacking Stalemate                                          := 0
+Combat Defending Won                                                := 5
+Combat Defending Lost                                               := 10
+Combat Defending Stalemate                                          := 0
+Intelligence Against Us                                             := 30
+Receive General Message                                             := -1
+Receive Propose Treaty                                              := -2
+Receive Accept Treaty                                               := -10
+Receive Refuse Treaty                                               := 10
+Receive Offer Counter Treaty Proposal                               := 0
+Receive Break Treaty                                                := 30
+Receive Declare War                                                 := 50
+Receive Propose Trade                                               := -2
+Receive Accept Trade                                                := -10
+Receive Refuse Trade                                                := 10
+Receive Offer Counter Trade Proposal                                := 0
+Receive Give Gift                                                   := -10
+Receive Accept Gift                                                 := 0
+Receive Refuse Gift                                                 := 10
+Receive Offer Tribute                                               := -15
+Receive Accept Tribute                                              := 0
+Receive Refuse Tribute                                              := 10
+Receive Want a gift                                                 := 10
+Receive Want a tribute                                              := 30
+Receive Demand your surrender                                       := 30
+Receive Remove your ships from system                               := 20
+Receive Remove your colonies from system                            := 20
+Receive Leave planet                                                := 20
+Receive Stop hostile actions against empire                         := 5
+Receive Break treaty with empire                                    := 5
+Receive Declare war on empire                                       := 5
+Receive Make peace with empire                                      := 5
+Receive Support us against another empire                           := 0
+Receive Attack empire in system                                     := 5
+Receive Attack planet                                               := 5
+Receive Stop espionage activities                                   := 5
+Receive Stop sabotage activities                                    := 5
+Receive Stop attacks in system                                      := 5
+Receive Surrender                                                   := 0
+Receive Grant independence to colony                                := -5
+Receive Demand / Request / Warn                                     := 5
+Receive Accept Demand/Request                                       := -5
+Receive Refuse Demand/Request                                       := 10
+
+=======================================================================================
+*END*
+=======================================================================================
+

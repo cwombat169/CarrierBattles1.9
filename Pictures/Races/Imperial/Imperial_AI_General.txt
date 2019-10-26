@@ -1,0 +1,111 @@
+=======================================================================================
+AI DATA FILE -
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Galactic Empire
+Description                              := A long time ago, in a galaxy far far away.. evil gave birth to a dark empire which ruled the galaxy with iron grip.
+Empire Name                              := Galactic
+Empire Type                              := Empire 
+Emperor Name                             := Tarkin
+Emperor Title                            := Grand Moff
+Biological Description                   := Imperial population is comprised of many thousands of species from humans to wookies. However the Imperial Navy is mostly garrisoned with cloned humans and specially trained officers from many of the human worlds of the Empire. 
+Society Description                      := The Empire is totalitarian and fascist society whose leader, the Emperor, rules without mercy using the dark side of the force.  The people are repressed, and live in fear of the Emperors right hand henchmen, the Dark Lord of the Sith, Darth Vader.  The Imperial Navy is under the direct control of Grand Moff Tarkin, and through his guidance the Imperial Navy has begun to grow in size and strength.  
+General History Description              := The Empire was created through a reorganization of the Galactic Republic following the end of the Clone Wars during the Jedi insurrection where the Emperor was targeted for assassination by the Jedi Council.  Fearing for his safety, and the safety of the First Galactic Empire, Emperor Palpatine decreed that the Jedi were enemies of the state and ordered their extermination.  Many of those in the Imperial Senate cheered as their freedoms were eroded but a few, mostly loyalist to the Republic and the Jedi broke away and founded the Rebellion movement.  In response the Emperor order the creation of the mightiest star navy ever seen in the history of the Galaxy.  Shortly there after the Imperial Navy was born.
+Demeanor                                 := Aggressive
+Culture                                  := Berzerkers
+Happiness Type                           := Bloodthirsty
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := Imperial
+Race Opt 1 Num Characteristics           := 10
+Race Opt 1 Characteristic 1 Type         := Physical Strength
+Race Opt 1 Characteristic 1 Amount       := 100
+Race Opt 1 Characteristic 2 Type         := Intelligence
+Race Opt 1 Characteristic 2 Amount       := 107
+Race Opt 1 Characteristic 3 Type         := Cunning
+Race Opt 1 Characteristic 3 Amount       := 95
+Race Opt 1 Characteristic 4 Type         := Reproduction
+Race Opt 1 Characteristic 4 Amount       := 100
+Race Opt 1 Characteristic 5 Type         := Happiness
+Race Opt 1 Characteristic 5 Amount       := 95
+Race Opt 1 Characteristic 6 Type         := Political Savvy
+Race Opt 1 Characteristic 6 Amount       := 91
+Race Opt 1 Characteristic 7 Type         := Mining Aptitude
+Race Opt 1 Characteristic 7 Amount       := 105
+Race Opt 1 Characteristic 8 Type         := Farming Aptitude
+Race Opt 1 Characteristic 8 Amount       := 100
+Race Opt 1 Characteristic 9 Type         := Refining Aptitude
+Race Opt 1 Characteristic 9 Amount       := 105
+Race Opt 1 Characteristic 10 Type        := Construction Aptitude
+Race Opt 1 Characteristic 10 Amount      := 100
+Race Opt 1 Num Advanced Traits           := 5
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := Rock Natives
+Race Opt 1 Adv Trait 3                   := AI Race
+Race Opt 1 Adv Trait 4                   := Historically Curious
+Race Opt 1 Adv Trait 5                   := Natural Builders
+Race Opt 2 Num Characteristics           := 10
+Race Opt 2 Characteristic 1 Type         := Physical Strength
+Race Opt 2 Characteristic 1 Amount       := 100
+Race Opt 2 Characteristic 2 Type         := Intelligence
+Race Opt 2 Characteristic 2 Amount       := 108
+Race Opt 2 Characteristic 3 Type         := Cunning
+Race Opt 2 Characteristic 3 Amount       := 95
+Race Opt 2 Characteristic 4 Type         := Reproduction
+Race Opt 2 Characteristic 4 Amount       := 100
+Race Opt 2 Characteristic 5 Type         := Happiness
+Race Opt 2 Characteristic 5 Amount       := 100
+Race Opt 2 Characteristic 6 Type         := Political Savvy
+Race Opt 2 Characteristic 6 Amount       := 91
+Race Opt 2 Characteristic 7 Type         := Mining Aptitude
+Race Opt 2 Characteristic 7 Amount       := 111
+Race Opt 2 Characteristic 8 Type         := Farming Aptitude
+Race Opt 2 Characteristic 8 Amount       := 105
+Race Opt 2 Characteristic 9 Type         := Refining Aptitude
+Race Opt 2 Characteristic 9 Amount       := 110
+Race Opt 2 Characteristic 10 Type        := Construction Aptitude
+Race Opt 2 Characteristic 10 Amount      := 100
+Race Opt 2 Num Advanced Traits           := 5
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := Rock Natives
+Race Opt 2 Adv Trait 3                   := AI Race
+Race Opt 2 Adv Trait 4                   := Historically Curious
+Race Opt 2 Adv Trait 5                   := Natural Builders
+Race Opt 3 Num Characteristics           := 10
+Race Opt 3 Characteristic 1 Type         := Physical Strength
+Race Opt 3 Characteristic 1 Amount       := 100
+Race Opt 3 Characteristic 2 Type         := Intelligence
+Race Opt 3 Characteristic 2 Amount       := 108
+Race Opt 3 Characteristic 3 Type         := Cunning
+Race Opt 3 Characteristic 3 Amount       := 95
+Race Opt 3 Characteristic 4 Type         := Reproduction
+Race Opt 3 Characteristic 4 Amount       := 100
+Race Opt 3 Characteristic 5 Type         := Happiness
+Race Opt 3 Characteristic 5 Amount       := 100
+Race Opt 3 Characteristic 6 Type         := Political Savvy
+Race Opt 3 Characteristic 6 Amount       := 91
+Race Opt 3 Characteristic 7 Type         := Mining Aptitude
+Race Opt 3 Characteristic 7 Amount       := 111
+Race Opt 3 Characteristic 8 Type         := Farming Aptitude
+Race Opt 3 Characteristic 8 Amount       := 105
+Race Opt 3 Characteristic 9 Type         := Refining Aptitude
+Race Opt 3 Characteristic 9 Amount       := 110
+Race Opt 3 Characteristic 10 Type        := Construction Aptitude
+Race Opt 3 Characteristic 10 Amount      := 100
+Race Opt 3 Num Advanced Traits           := 6
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := Rock Natives
+Race Opt 3 Adv Trait 3                   := AI Race
+Race Opt 3 Adv Trait 4                   := Historically Curious
+Race Opt 3 Adv Trait 5                   := Natural Builders
+Race Opt 3 Adv Trait 6                   := High Density Urbanites
+
+=======================================================================================
+*END*
+=======================================================================================
+

@@ -1,0 +1,105 @@
+=======================================================================================
+AI DATA FILE - Phong
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Phong
+Description                              := The Phong are a serene society of workers. Their advanced mining skills have allowed them to develop a crystalline technology.
+Empire Name                              := Phong
+Empire Type                              := Confederation
+Emperor Name                             := Gerath
+Emperor Title                            := Chancellor
+Biological Description                   := The Phong are definitely humanoid in appearance, but their bodies contain a number of non-organic properties. Their polymer composed skin makes them resistant to adverse conditions. They stand roughly 2 meters tall and have an average lifespan of 30 years. They are most at home when mining deep underground.
+Society Description                      := The Phong society is dedicated to work. Their populations are most happy when vigorously working. They excel at mining and refining radioactive materials. Their society is grouped into different working guilds which are all governed by the high chancellor. 
+General History Description              := The Phong's history is a relatively peaceful one. Most of their differences they solve through some kind of working arrangement. The few wars they have been engaged in were mainly due to other races wanting to obtain their Crystallurgy technology. This advanced technology has allowed the Phong to resist attempts at subjugation.
+Demeanor                                 := Honorable
+Culture                                  := Efficient Workers
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Carbon Dioxide
+Design Name File                         := Middeast.txt
+Race Opt 1 Num Characteristics           := 9
+Race Opt 1 Characteristic 1 Type         := Cunning
+Race Opt 1 Characteristic 1 Amount       := 90
+Race Opt 1 Characteristic 2 Type         := Political Savvy
+Race Opt 1 Characteristic 2 Amount       := 93
+Race Opt 1 Characteristic 3 Type         := Intelligence
+Race Opt 1 Characteristic 3 Amount       := 110
+Race Opt 1 Characteristic 4 Type         := Reproduction
+Race Opt 1 Characteristic 4 Amount       := 105
+Race Opt 1 Characteristic 5 Type         := Happiness
+Race Opt 1 Characteristic 5 Amount       := 105
+Race Opt 1 Characteristic 6 Type         := Mining Aptitude
+Race Opt 1 Characteristic 6 Amount       := 108
+Race Opt 1 Characteristic 7 Type         := Farming Aptitude
+Race Opt 1 Characteristic 7 Amount       := 107
+Race Opt 1 Characteristic 8 Type         := Refining Aptitude
+Race Opt 1 Characteristic 8 Amount       := 108
+Race Opt 1 Characteristic 9 Type         := Construction Aptitude
+Race Opt 1 Characteristic 9 Amount       := 100
+Race Opt 1 Num Advanced Traits           := 5
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := Rock Natives
+Race Opt 1 Adv Trait 3                   := AI Race
+Race Opt 1 Adv Trait 4                   := Historically Curious
+Race Opt 1 Adv Trait 5                   := Supply Misers
+Race Opt 2 Num Characteristics           := 9
+Race Opt 2 Characteristic 1 Type         := Cunning
+Race Opt 2 Characteristic 1 Amount       := 90
+Race Opt 2 Characteristic 2 Type         := Political Savvy
+Race Opt 2 Characteristic 2 Amount       := 93
+Race Opt 2 Characteristic 3 Type         := Intelligence
+Race Opt 2 Characteristic 3 Amount       := 110
+Race Opt 2 Characteristic 4 Type         := Reproduction
+Race Opt 2 Characteristic 4 Amount       := 105
+Race Opt 2 Characteristic 5 Type         := Happiness
+Race Opt 2 Characteristic 5 Amount       := 105
+Race Opt 2 Characteristic 6 Type         := Mining Aptitude
+Race Opt 2 Characteristic 6 Amount       := 114
+Race Opt 2 Characteristic 7 Type         := Farming Aptitude
+Race Opt 2 Characteristic 7 Amount       := 110
+Race Opt 2 Characteristic 8 Type         := Refining Aptitude
+Race Opt 2 Characteristic 8 Amount       := 110
+Race Opt 2 Characteristic 9 Type         := Construction Aptitude
+Race Opt 2 Characteristic 9 Amount       := 100
+Race Opt 2 Num Advanced Traits           := 5
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := Rock Natives
+Race Opt 2 Adv Trait 3                   := AI Race
+Race Opt 2 Adv Trait 4                   := Historically Curious
+Race Opt 2 Adv Trait 5                   := Supply Misers
+Race Opt 3 Num Characteristics           := 9
+Race Opt 3 Characteristic 1 Type         := Cunning
+Race Opt 3 Characteristic 1 Amount       := 90
+Race Opt 3 Characteristic 2 Type         := Political Savvy
+Race Opt 3 Characteristic 2 Amount       := 93
+Race Opt 3 Characteristic 3 Type         := Intelligence
+Race Opt 3 Characteristic 3 Amount       := 110
+Race Opt 3 Characteristic 4 Type         := Reproduction
+Race Opt 3 Characteristic 4 Amount       := 105
+Race Opt 3 Characteristic 5 Type         := Happiness
+Race Opt 3 Characteristic 5 Amount       := 105
+Race Opt 3 Characteristic 6 Type         := Mining Aptitude
+Race Opt 3 Characteristic 6 Amount       := 114
+Race Opt 3 Characteristic 7 Type         := Farming Aptitude
+Race Opt 3 Characteristic 7 Amount       := 110
+Race Opt 3 Characteristic 8 Type         := Refining Aptitude
+Race Opt 3 Characteristic 8 Amount       := 110
+Race Opt 3 Characteristic 9 Type         := Construction Aptitude
+Race Opt 3 Characteristic 9 Amount       := 100
+Race Opt 3 Num Advanced Traits           := 6
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := Rock Natives
+Race Opt 3 Adv Trait 3                   := AI Race
+Race Opt 3 Adv Trait 4                   := Historically Curious
+Race Opt 3 Adv Trait 5                   := Supply Misers
+Race Opt 3 Adv Trait 6                   := High Density Urbanites
+
+=======================================================================================
+*END*
+=======================================================================================
+

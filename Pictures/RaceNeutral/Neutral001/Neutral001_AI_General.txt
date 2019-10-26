@@ -1,0 +1,74 @@
+=======================================================================================
+AI DATA FILE - Netural
+=======================================================================================
+
+Demeanor:
+  Psychotic, Violent, Aggressive, Impulsive, Neutral, Friendly, 
+  Honorable, Serene
+
+Culture:
+  Neutral, Berzerkers, Warriors, Traders, Politicians, Artisans, 
+  Scientists, Workers, Schemers, Zealots, Engineers, Merchants, 
+  Renegades, Xenophobes
+
+Planet Type:
+  Rock, Ice, Gas Giant
+
+Atmosphere:
+  None, Methane, Oxygen, Hydrogen, Carbon Dioxide
+
+Characteristics:
+  Physical Strength, Intelligence, Cunning, Environmental Resistance,
+  Reproduction, Happiness, Aggressiveness, Defensiveness, Political Savvy,
+  Mining Aptitude, Farming Aptitude, Refining Aptitude, Construction Aptitude,
+  Repair Aptitude, Maintenance Aptitude
+
+Adv Traits:
+  Advanced Power Conservation, Mechanoids, Lucky, Natural Merchants, 
+  Propulsion Experts, Ancient Race, Advanced Storage Techniques, 
+  Hardy Spacefarrers, Psychic, Deeply Religious, Temporal Knowledge, 
+  Crystallurgy, Emotionless
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Bobroba States
+Description                              := A militaristic race whose strong superstitions prevent them from leaving their home system.
+Empire Name                              := Bobroba
+Empire Type                              := States
+Emperor Name                             := Chandra
+Emperor Title                            := President
+Biological Description                   := The Bobroba are a humanoid species that are similar to human beings in many ways. They average about 7 feet in height and their skin is a dull orange color. Their average life span is approximately 120 years and they breathe an oxygen atmosphere. 
+Society Description                      := The Bobroba society is organized into a rough collection of states that are governed by a single president. The president is elected by a contest of mental and physical tests between the candidates. Their various states are often at war which prevent their society as a whole from progressing. 
+General History Description              := The Bobroba do not have much of an interstellar history as they have never left their home system. Their society is paralyzed by superstitions of nothing being beyond their home system. Though they have knowledge of warp points, they refuse to attempt to traverse them. 
+Demeanor                                 := Impulsive
+Culture                                  := Neutral
+Planet Type                              := Rock
+Happiness Type                           := Peaceful
+Atmosphere                               := Oxygen
+Design Name File                         := Africa.txt
+Race Opt 1 Num Characteristics           := 0
+Race Opt 1 Num Advanced Traits           := 4
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := AI Race
+Race Opt 1 Adv Trait 3                   := Rock Natives
+Race Opt 1 Adv Trait 4                   := Impersonal Society
+Race Opt 2 Num Characteristics           := 0
+Race Opt 2 Num Advanced Traits           := 4
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := AI Race
+Race Opt 2 Adv Trait 3                   := Rock Natives
+Race Opt 2 Adv Trait 4                   := Impersonal Society
+Race Opt 3 Num Characteristics           := 0
+Race Opt 3 Num Advanced Traits           := 4
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := AI Race
+Race Opt 3 Adv Trait 3                   := Rock Natives
+Race Opt 3 Adv Trait 4                   := Impersonal Society
+
+=======================================================================================
+*END*
+=======================================================================================
+

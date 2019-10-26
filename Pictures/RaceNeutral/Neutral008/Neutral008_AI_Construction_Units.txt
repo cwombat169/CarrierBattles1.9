@@ -1,0 +1,75 @@
+=======================================================================================
+AI CONSTRUCTION UNITS DATA FILE - Phong for Carrier Battles Mod version 0.2
+=======================================================================================
+
+On each turn, this file will be processed (if it exists), and units will be added
+to all planetary construction queues which:
+1. Are not currently busy.
+2. Those planets which have reached maximum facilities.
+3. The amount consumed per turn won't reduce the empire's resources to zero. 
+
+Note: If there are units listed in the AI_Construction_Vehicles.txt file, they 
+      will be constructed normally.
+
+Colony Type:
+  Homeworld, Mining Colony, Farming Colony, Refining Colony,
+  Resupply Base, Research Compound, Intelligence Compound, 
+  Construction Yard, Military Installation
+
+Num Queue Entries:
+  Num Entries
+
+Entry X Type:
+  AI Design Type - Mine, Satellite, Weapon Platform, Troop, Fighter, 
+  Recon Satellite, Anti-Planet Drone, Anti-Ship Drone
+
+Entry X Maximum in kT:
+  Maximum amount in kT this planet can have of this unit type. If the planet 
+  is below this amount, then units of this type will be added to the construction  
+  queue. If this amount or greater is present on the planet, move down to the next
+  entry. Maximum value for this is 65000. 
+  
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Percentage of Resources To Reserve For Unit Construction := 10
+
+Colony Type                  := Homeworld
+Num Queue Entries            := 2
+Entry 1 Type                 := Troop
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Fighter
+Entry 2 Maximum in kT        := 65000
+
+Colony Type                  := Mining Colony, Farming Colony, Refining Colony, Research Compound, Intelligence Compound, Resupply Base
+Num Queue Entries            := 5
+Entry 1 Type                 := Fighter
+Entry 1 Maximum in kT        := 200
+Entry 2 Type                 := Troop
+Entry 2 Maximum in kT        := 100
+Entry 3 Type                 := Fighter
+Entry 3 Maximum in kT        := 800
+Entry 4 Type                 := Troop
+Entry 4 Maximum in kT        := 300
+Entry 5 Type                 := Fighter
+Entry 5 Maximum in kT        := 65000
+
+Colony Type                  := Military Installation, Construction Yard
+Num Queue Entries            := 6
+Entry 1 Type                 := Troop
+Entry 1 Maximum in kT        := 100
+Entry 2 Type                 := Fighter
+Entry 2 Maximum in kT        := 400
+Entry 3 Type                 := Troop
+Entry 3 Maximum in kT        := 300
+Entry 4 Type                 := Fighter
+Entry 4 Maximum in kT        := 700
+Entry 5 Type                 := Troop
+Entry 5 Maximum in kT        := 600
+Entry 6 Type                 := Fighter
+Entry 6 Maximum in kT        := 65000
+
+=======================================================================================
+*END*
+=======================================================================================

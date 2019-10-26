@@ -1,0 +1,117 @@
+=======================================================================================
+CULTURES DATA FILE
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                  := Neutral
+Description           := Balance and moderation in all things.  The downside is you are a boring race, plain and simple.  Since you can't stomach the costs, you get none of the benefits.
+Production            := 0
+Research              := 0
+Intelligence          := 0
+Trade                 := 0
+Space Combat          := 0
+Ground Combat         := 0
+Happiness             := 0
+Maintenance           := 0
+SY Rate               := 0
+Repair                := 0
+
+Name                  := Pacifists
+Description           := Violence is never the answer.  All negative emotions are diverted to constructive purposes, and your race is well on the way to living in a wonderful, productive utopia.
+Production            := 25
+Research              := 25
+Intelligence          := 0
+Trade                 := 25
+Space Combat          := -50
+Ground Combat         := -65
+Happiness             := 100
+Maintenance           := 25
+SY Rate               := 25
+Repair                := 35
+
+Name                  := Traders
+Description           := Buy low and sell high.  Your children know this instictively before they can even talk.  Your elders could sell a random stranger the shirt on his back for twice its retail price.  Unfortunately, not all problems can be negotiated or bribed away, and the massive profiteering impacts your economy.
+Production            := -10
+Research              := -10
+Intelligence          := 50
+Trade                 := 100
+Space Combat          := -5
+Ground Combat         := -10
+Happiness             := 0
+Maintenance           := -10
+SY Rate               := -10
+Repair                := -10
+
+Name                  := Berzerkers
+Description           := Fighting is your life.  You have no time for economics and philosophical pursuits.  Enemies await out there and your people are finely honed killing machines.
+Production            := -15
+Research              := -25
+Intelligence          := -10
+Trade                 := -50
+Space Combat          := 15
+Ground Combat         := 30
+Happiness             := 0
+Maintenance           := 0
+SY Rate               := -25
+Repair                := -25
+
+Name                  := Preservationists
+Description           := You never throw anything away.  Objects are meticulously maintained, and any damage is easy to repair.  It takes you longer to select the perfect resources to extract, and production of your works is slow, but once it leaves the factory, it will never break down.
+Production            := -50
+Research              := 0
+Intelligence          := 0
+Trade                 := -50
+Space Combat          := 0
+Ground Combat         := 0
+Happiness             := 0
+Maintenance           := 95
+SY Rate               := -50
+Repair                := 100
+
+Name                  := Efficient Workers
+Description           := Follow the plan precisely, and success is assured.  Although your people are less creative and slower to react, you have taken the time to optimize your work and thus make the most of what you already have.
+Production            := 20
+Research              := -50
+Intelligence          := 20
+Trade                 := -5
+Space Combat          := -6
+Ground Combat         := -5
+Happiness             := 0
+Maintenance           := 25
+SY Rate               := 10
+Repair                := 20
+
+Name                  := Disposable Society
+Description           := Quantity over quality is the key.  Factories produce objects in vast numbers, although most of them fall apart just after the warranty expires.  If something breaks, just replace it with the latest model.
+Production            := 0
+Research              := 0
+Intelligence          := 0
+Trade                 := 0
+Space Combat          := -7
+Ground Combat         := -5
+Happiness             := 0
+Maintenance           := -100
+SY Rate               := 100
+Repair                := -100
+
+Name                  := Brainiacs
+Description           := Outsmarting your enemy is the key to victory.  Creating high tech equipment, making them paranoid with covert ops, and outmanoeuvering their traders.  Hands-on work suffers from unpopularity.
+Production            := -20
+Research              := 50
+Intelligence          := 50
+Trade                 := 20
+Space Combat          := 5
+Ground Combat         := -15
+Happiness             := 0
+Maintenance           := -20
+SY Rate               := -20
+Repair                := -20
+
+=======================================================================================
+*END*
+=======================================================================================
+

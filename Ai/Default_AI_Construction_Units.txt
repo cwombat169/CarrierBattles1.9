@@ -1,0 +1,181 @@
+=======================================================================================
+AI CONSTRUCTION UNITS DATA FILE - Phong for Carrier Battles Mod version 0.1
+=======================================================================================
+
+On each turn, this file will be processed (if it exists), and units will be added
+to all planetary construction queues which:
+1. Are not currently busy.
+2. Those planets which have reached maximum facilities.
+3. The amount consumed per turn won't reduce the empire's resources to zero. 
+
+Note: If there are units listed in the AI_Construction_Vehicles.txt file, they 
+      will be constructed normally.
+
+Colony Type:
+  Homeworld, Mining Colony, Farming Colony, Refining Colony,
+  Resupply Base, Research Compound, Intelligence Compound, 
+  Construction Yard, Military Installation
+
+Num Queue Entries:
+  Num Entries
+
+Entry X Type:
+  AI Design Type - Mine, Satellite, Weapon Platform, Troop, Fighter, 
+  Recon Satellite, Anti-Planet Drone, Anti-Ship Drone
+
+Entry X Maximum in kT:
+  Maximum amount in kT this planet can have of this unit type. If the planet 
+  is below this amount, then units of this type will be added to the construction  
+  queue. If this amount or greater is present on the planet, move down to the next
+  entry. Maximum value for this is 65000. 
+  
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Percentage of Resources To Reserve For Unit Construction := 40
+
+Colony Type                  := Homeworld
+Num Queue Entries            := 9
+Entry 1 Type                 := Troop
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Jaeger
+Entry 2 Maximum in kT        := 1000
+Entry 3 Type                 := Bomber
+Entry 3 Maximum in kT        := 2000
+Entry 4 Type                 := Interceptor
+Entry 4 Maximum in kT        := 3000
+Entry 5 Type                 := Jaeger
+Entry 5 Maximum in kT        := 4000
+Entry 6 Type                 := Bomber
+Entry 6 Maximum in kT        := 5000
+Entry 7 Type                 := Interceptor
+Entry 7 Maximum in kT        := 6000
+Entry 8 Type                 := Jaeger
+Entry 8 Maximum in kT        := 7000
+Entry 9 Type                 := Bomber
+Entry 9 Maximum in kT        := 1000000
+
+Colony Type                  := Mining Colony
+Num Queue Entries            := 6
+Entry 1 Type                 := Jaeger
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Bomber
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Interceptor
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Jaeger
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Bomber
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Interceptor
+Entry 6 Maximum in kT        := 1000000
+
+Colony Type                  := Farming Colony
+Num Queue Entries            := 6
+Entry 1 Type                 := Bomber
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Interceptor
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Jaeger
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Bomber
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Interceptor
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Jaeger
+Entry 6 Maximum in kT        := 1000000
+
+Colony Type                  := Refining Colony
+Num Queue Entries            := 6
+Entry 1 Type                 := Interceptor
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Jaeger
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Bomber
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Interceptor
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Jaeger
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Bomber
+Entry 6 Maximum in kT        := 1000000
+
+Colony Type                  := Research Compound
+Num Queue Entries            := 6
+Entry 1 Type                 := Jaeger
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Bomber
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Interceptor
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Jaeger
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Bomber
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Interceptor
+Entry 6 Maximum in kT        := 1000000
+
+Colony Type                  := Intelligence Compound
+Num Queue Entries            := 6
+Entry 1 Type                 := Bomber
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Interceptor
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Jaeger
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Bomber
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Interceptor
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Jaeger
+Entry 6 Maximum in kT        := 1000000
+
+Colony Type                  := Military Installation
+Num Queue Entries            := 6
+Entry 1 Type                 := Interceptor
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Jaeger
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Bomber
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Interceptor
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Jaeger
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Bomber
+Entry 6 Maximum in kT        := 1000000
+
+Colony Type                  := Resupply Base
+Num Queue Entries            := 6
+Entry 1 Type                 := Jaeger
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Bomber
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Interceptor
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Jaeger
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Bomber
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Interceptor
+Entry 6 Maximum in kT        := 1000000
+
+Colony Type                  := Construction Yard
+Num Queue Entries            := 6
+Entry 1 Type                 := Bomber
+Entry 1 Maximum in kT        := 1000
+Entry 2 Type                 := Interceptor
+Entry 2 Maximum in kT        := 2000
+Entry 3 Type                 := Jaeger
+Entry 3 Maximum in kT        := 3000
+Entry 4 Type                 := Bomber
+Entry 4 Maximum in kT        := 4000
+Entry 5 Type                 := Interceptor
+Entry 5 Maximum in kT        := 5000
+Entry 6 Type                 := Jaeger
+Entry 6 Maximum in kT        := 1000000
+
+=======================================================================================
+*END*
+=======================================================================================

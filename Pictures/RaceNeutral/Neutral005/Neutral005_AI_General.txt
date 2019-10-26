@@ -1,0 +1,74 @@
+=======================================================================================
+AI DATA FILE - Netural
+=======================================================================================
+
+Demeanor:
+  Psychotic, Violent, Aggressive, Impulsive, Neutral, Friendly, 
+  Honorable, Serene
+
+Culture:
+  Neutral, Berzerkers, Warriors, Traders, Politicians, Artisans, 
+  Scientists, Workers, Schemers, Zealots, Engineers, Merchants, 
+  Renegades, Xenophobes
+
+Planet Type:
+  Rock, Ice, Gas Giant
+
+Atmosphere:
+  None, Methane, Oxygen, Hydrogen, Carbon Dioxide
+
+Characteristics:
+  Physical Strength, Intelligence, Cunning, Environmental Resistance,
+  Reproduction, Happiness, Aggressiveness, Defensiveness, Political Savvy,
+  Mining Aptitude, Farming Aptitude, Refining Aptitude, Construction Aptitude,
+  Repair Aptitude, Maintenance Aptitude
+
+Adv Traits:
+  Advanced Power Conservation, Mechanoids, Lucky, Natural Merchants, 
+  Propulsion Experts, Ancient Race, Advanced Storage Techniques, 
+  Hardy Spacefarrers, Psychic, Deeply Religious, Temporal Knowledge, 
+  Crystallurgy, Emotionless
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Texrak Hegemony
+Description                              := A herd-based species who want nothing more than to graze. 
+Empire Name                              := Texrak
+Empire Type                              := Hegemony
+Emperor Name                             := Yreknak
+Emperor Title                            := Pack Leader
+Biological Description                   := The Texrak are a quad-pedal species that exists in great herds. They are a strongly pack oriented society and never venture far from their family. They spend most of their life time grazing the vast plains of their homeworld. They have an average lifespan of 30 years. 
+Society Description                      := The Texrak barely have what you would call a society. The different herds of their homeworld are what would be considered states (as each herd numbers in the tens of thousands). They do not have any perminent structures, all of their machinery and tools are mobile. Their society is governed by the pack leader of the largest herd on the planet. 
+General History Description              := The Texrak have just recently discovered spaceflight thanks to one rare individual who fought their lifestyle of grazing. He led his people into space and to other planets with grazing territory. Their current pack leader is a direct descendant of this unique individual. The Texrak know nothing of war, and live only to eat. 
+Demeanor                                 := Serene
+Culture                                  := Neutral
+Happiness Type                           := Peaceful
+Planet Type                              := Ice
+Atmosphere                               := Oxygen
+Design Name File                         := Argentin.txt
+Race Opt 1 Num Characteristics           := 0
+Race Opt 1 Num Advanced Traits           := 4
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := AI Race
+Race Opt 1 Adv Trait 3                   := Ice Natives
+Race Opt 1 Adv Trait 4                   := Impersonal Society
+Race Opt 2 Num Characteristics           := 0
+Race Opt 2 Num Advanced Traits           := 4
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := AI Race
+Race Opt 2 Adv Trait 3                   := Ice Natives
+Race Opt 2 Adv Trait 4                   := Impersonal Society
+Race Opt 3 Num Characteristics           := 0
+Race Opt 3 Num Advanced Traits           := 4
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := AI Race
+Race Opt 3 Adv Trait 3                   := Ice Natives
+Race Opt 3 Adv Trait 4                   := Impersonal Society
+
+=======================================================================================
+*END*
+=======================================================================================
+

@@ -1,0 +1,111 @@
+=======================================================================================
+AI DATA FILE - General
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Terran
+Description                              := Terrans are an aggressive species which seek to expand their economy to every corner of the galaxy. 
+Empire Name                              := Terran
+Empire Type                              := Confederation
+Emperor Name                             := Vaughn
+Emperor Title                            := General
+Biological Description                   := The Terrans are one of the few species that is made up of several sub-categories that have followed different evolutionary and cultural paths.  As a result, Terrans, or Humans as they call themselves have developed into one of the most diverse races in the galaxy.  Physically, they aren't anything special.  Bipedal with two arms and a head, they are a remarkably ordinary-looking race.  A positive byproduct of this fact is that their appearence is inoffensive to most, which allows them to make treaties and trade with other races with relative ease.
+Society Description                      := The Terrans are goverened by a very liberal democracy.  The large numbers of freedoms granted by this system result in feelings of happiness and well being amongst the general population.  However, this openness also leave the Terrans vulnerable to infiltration.
+General History Description              := With so many different cultures all evolving at the same time, even a brief summary of Terran history would take volumes. The Terrans do have a pronounced history of killing each other that stretches back to the beginning of their race. As a result, they have become extremely proficient at the art. 
+Demeanor                                 := Aggressive
+Culture                                  := Traders
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := States.txt
+Race Opt 1 Num Characteristics           := 10
+Race Opt 1 Characteristic 1 Type         := Physical Strength
+Race Opt 1 Characteristic 1 Amount       := 95
+Race Opt 1 Characteristic 2 Type         := Intelligence
+Race Opt 1 Characteristic 2 Amount       := 105
+Race Opt 1 Characteristic 3 Type         := Cunning
+Race Opt 1 Characteristic 3 Amount       := 100
+Race Opt 1 Characteristic 4 Type         := Reproduction
+Race Opt 1 Characteristic 4 Amount       := 100
+Race Opt 1 Characteristic 5 Type         := Happiness
+Race Opt 1 Characteristic 5 Amount       := 105
+Race Opt 1 Characteristic 6 Type         := Political Savvy
+Race Opt 1 Characteristic 6 Amount       := 105
+Race Opt 1 Characteristic 7 Type         := Mining Aptitude
+Race Opt 1 Characteristic 7 Amount       := 107
+Race Opt 1 Characteristic 8 Type         := Farming Aptitude
+Race Opt 1 Characteristic 8 Amount       := 100
+Race Opt 1 Characteristic 9 Type         := Refining Aptitude
+Race Opt 1 Characteristic 9 Amount       := 106
+Race Opt 1 Characteristic 10 Type        := Construction Aptitude
+Race Opt 1 Characteristic 10 Amount      := 100
+Race Opt 1 Num Advanced Traits           := 5
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := Rock Natives
+Race Opt 1 Adv Trait 3                   := AI Race
+Race Opt 1 Adv Trait 4                   := Historically Curious
+Race Opt 1 Adv Trait 5                   := Propulsion Experts
+Race Opt 2 Num Characteristics           := 10
+Race Opt 2 Characteristic 1 Type         := Physical Strength
+Race Opt 2 Characteristic 1 Amount       := 95
+Race Opt 2 Characteristic 2 Type         := Intelligence
+Race Opt 2 Characteristic 2 Amount       := 109
+Race Opt 2 Characteristic 3 Type         := Cunning
+Race Opt 2 Characteristic 3 Amount       := 100
+Race Opt 2 Characteristic 4 Type         := Reproduction
+Race Opt 2 Characteristic 4 Amount       := 100
+Race Opt 2 Characteristic 5 Type         := Happiness
+Race Opt 2 Characteristic 5 Amount       := 105
+Race Opt 2 Characteristic 6 Type         := Political Savvy
+Race Opt 2 Characteristic 6 Amount       := 105
+Race Opt 2 Characteristic 7 Type         := Mining Aptitude
+Race Opt 2 Characteristic 7 Amount       := 110
+Race Opt 2 Characteristic 8 Type         := Farming Aptitude
+Race Opt 2 Characteristic 8 Amount       := 105
+Race Opt 2 Characteristic 9 Type         := Refining Aptitude
+Race Opt 2 Characteristic 9 Amount       := 110
+Race Opt 2 Characteristic 10 Type        := Construction Aptitude
+Race Opt 2 Characteristic 10 Amount      := 100
+Race Opt 2 Num Advanced Traits           := 5
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := Rock Natives
+Race Opt 2 Adv Trait 3                   := AI Race
+Race Opt 2 Adv Trait 4                   := Historically Curious
+Race Opt 2 Adv Trait 5                   := Propulsion Experts
+Race Opt 3 Num Characteristics           := 10
+Race Opt 3 Characteristic 1 Type         := Physical Strength
+Race Opt 3 Characteristic 1 Amount       := 95
+Race Opt 3 Characteristic 2 Type         := Intelligence
+Race Opt 3 Characteristic 2 Amount       := 109
+Race Opt 3 Characteristic 3 Type         := Cunning
+Race Opt 3 Characteristic 3 Amount       := 100
+Race Opt 3 Characteristic 4 Type         := Reproduction
+Race Opt 3 Characteristic 4 Amount       := 100
+Race Opt 3 Characteristic 5 Type         := Happiness
+Race Opt 3 Characteristic 5 Amount       := 105
+Race Opt 3 Characteristic 6 Type         := Political Savvy
+Race Opt 3 Characteristic 6 Amount       := 105
+Race Opt 3 Characteristic 7 Type         := Mining Aptitude
+Race Opt 3 Characteristic 7 Amount       := 110
+Race Opt 3 Characteristic 8 Type         := Farming Aptitude
+Race Opt 3 Characteristic 8 Amount       := 105
+Race Opt 3 Characteristic 9 Type         := Refining Aptitude
+Race Opt 3 Characteristic 9 Amount       := 110
+Race Opt 3 Characteristic 10 Type        := Construction Aptitude
+Race Opt 3 Characteristic 10 Amount      := 100
+Race Opt 3 Num Advanced Traits           := 6
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := Rock Natives
+Race Opt 3 Adv Trait 3                   := AI Race
+Race Opt 3 Adv Trait 4                   := Historically Curious
+Race Opt 3 Adv Trait 5                   := Propulsion Experts
+Race Opt 3 Adv Trait 6                   := High Density Urbanites
+
+=======================================================================================
+*END*
+=======================================================================================
+

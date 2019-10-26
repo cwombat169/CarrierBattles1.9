@@ -1,0 +1,62 @@
+The Aikenian  
+v1.1
+ 
+Created By:	William Christopher
+Co-Creator:	Aiken - Back Story and for whom the Race was named after
+
+Email:		atrocities@astmod.com
+Email:		Aiken - 
+Web Page:	www.galileo.spaceports.com/~william/main.htm
+
+===================================
+INSTALLATION
+===================================
+
+This file was created with the WinRar program: http://www.rarlab.com/  
+
+Self Extracting Version:
+1. Simply direct the file to your Space Empires Directory.  The File will install the empire files, design names, and race folder in the correct place.  
+
+Rar File
+1. Use winRar to open the file
+2. Extract to your space empires directory.  The file will place everthing in its correct location
+
+
+===================================
+CREDITS
+===================================
+
+
+Race Portrait By:	Atrocities
+Email:			atrocities@astmod.com
+Web Page:		http://www.galileo.spaceports.com/~william/main.htm
+
+Special Thanks To:	Aiken
+Email:			Unknown
+Web Page:		Unknwon
+
+Original Ship, Base, Fighter, Troops, Weapon Platform, and other images were created by William Christopher (C)2004
+
+Special Thanks To:	The Members at Shrapnel Games & Aiken
+Web Page:		http://www.shrapnelcommunity.com/threads/postlist.php?Cat=&Board=UBB23
+
+
+AI Based off of the Rage AI used in the TDM Mod Pack 
+
+	Alpha Kodiak  Mod Version 2.41
+	For use with Space Empires IV version 1.91.
+	Contact: mputman@home.com 
+
+===================================
+History
+===================================
+
+1.1 Fixed errors in General File
+1.0 Original Release
+
+===================================
+DISCLAIMER
+===================================
+
+These images were created using DOGA.  They are the property of William Christopher or his appointed Agent and my not be used for any purpose other than with the game Space Empires IV without his expressed written permission.
+

@@ -1,0 +1,108 @@
+=======================================================================================
+AI DATA FILE -
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Aikenian
+Description                              := A race of insidious aliens whose main goal is to achieve galactic domination by means of plots and tricks of law.
+Empire Name                              := Executive
+Empire Type                              := Collegium
+Emperor Name                             := Daharm
+Emperor Title                            := Supreme 
+Biological Description                   := The Aikenians are a carbon-based life form descended from a sandy planet in the Orion arm. They utilize a lot of physical forms because of flexible metabolism and high adaptability of their bodies. In a friendly environment they can grow to be about 3 meter tall. They are a bi-pedal reptilian type species with a green or brown skin and as some would say, haunting red glowing eyes.
+Society Description                      := The Executive Collegium is a highly competitive form of legal democracy where there are no classes or casts as such.  Each member of the society is a lawyer and the personal success is the only index of social status. This index consists of a total number of successful law suites, approved denunciation against other Aikenians and certified treasons. Therefore families and close relations in general are very uncommon in the Collegium. Once per 10 years Supreme Elections are established, there the lawyer with the highest index gains a title Supreme, which gives him a right to judge any legal case in his own favor. Most technologies the Aikenians posses are obtained by court decisions from patent and copyright petitions to other races. Science is not valued as high as industrial espionage or mastery of statutory interpretation.
+General History Description              := Soon after they've found the a way to use warp points for interstellar communication, the Aikenians met an advanced race called Bo-Oss who are a very rich and lazy life forms who are known to employee minor races to manage their business. They've contracted the Aikenians to administer juridical cases and foreign trade. Soon Executive Collegium and main principles of new Aikenians society were formed. Collegium spent 3000 years managing law cases and contracts of Bo-Ross’s and gained their full confidence. As their power and influence grew, Aikenian's ambitions grew too, and finally Collegium managed to bankrupt their thought to be masters and acquired their property for nothing. Since then the Collegium have sued to collapse the economies of other races in order to achieve a leading position in galaxy.
+Demeanor                                 := Impulsive
+Culture                                  := Efficient Workers
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := Aikenian.txt
+Race Opt 1 Num Characteristics           := 10
+Race Opt 1 Characteristic 1 Type         := Physical Strength
+Race Opt 1 Characteristic 1 Amount       := 105
+Race Opt 1 Characteristic 2 Type         := Intelligence
+Race Opt 1 Characteristic 2 Amount       := 100
+Race Opt 1 Characteristic 3 Type         := Cunning
+Race Opt 1 Characteristic 3 Amount       := 90
+Race Opt 1 Characteristic 4 Type         := Reproduction
+Race Opt 1 Characteristic 4 Amount       := 104
+Race Opt 1 Characteristic 5 Type         := Happiness
+Race Opt 1 Characteristic 5 Amount       := 105
+Race Opt 1 Characteristic 6 Type         := Political Savvy
+Race Opt 1 Characteristic 6 Amount       := 100
+Race Opt 1 Characteristic 7 Type         := Mining Aptitude
+Race Opt 1 Characteristic 7 Amount       := 107
+Race Opt 1 Characteristic 8 Type         := Farming Aptitude
+Race Opt 1 Characteristic 8 Amount       := 100
+Race Opt 1 Characteristic 9 Type         := Refining Aptitude
+Race Opt 1 Characteristic 9 Amount       := 106
+Race Opt 1 Characteristic 10 Type        := Construction Aptitude
+Race Opt 1 Characteristic 10 Amount      := 100
+Race Opt 1 Num Advanced Traits           := 4
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := Rock Natives
+Race Opt 1 Adv Trait 3                   := AI Race
+Race Opt 1 Adv Trait 4                   := Natural Builders
+Race Opt 2 Num Characteristics           := 10
+Race Opt 2 Characteristic 1 Type         := Physical Strength
+Race Opt 2 Characteristic 1 Amount       := 110
+Race Opt 2 Characteristic 2 Type         := Intelligence
+Race Opt 2 Characteristic 2 Amount       := 100
+Race Opt 2 Characteristic 3 Type         := Cunning
+Race Opt 2 Characteristic 3 Amount       := 90
+Race Opt 2 Characteristic 4 Type         := Reproduction
+Race Opt 2 Characteristic 4 Amount       := 104
+Race Opt 2 Characteristic 5 Type         := Happiness
+Race Opt 2 Characteristic 5 Amount       := 105
+Race Opt 2 Characteristic 6 Type         := Political Savvy
+Race Opt 2 Characteristic 6 Amount       := 100
+Race Opt 2 Characteristic 7 Type         := Mining Aptitude
+Race Opt 2 Characteristic 7 Amount       := 110
+Race Opt 2 Characteristic 8 Type         := Farming Aptitude
+Race Opt 2 Characteristic 8 Amount       := 103
+Race Opt 2 Characteristic 9 Type         := Refining Aptitude
+Race Opt 2 Characteristic 9 Amount       := 110
+Race Opt 2 Characteristic 10 Type        := Construction Aptitude
+Race Opt 2 Characteristic 10 Amount      := 100
+Race Opt 2 Num Advanced Traits           := 4
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := Rock Natives
+Race Opt 2 Adv Trait 3                   := AI Race
+Race Opt 2 Adv Trait 4                   := Natural Builders
+Race Opt 3 Num Characteristics           := 10
+Race Opt 3 Characteristic 1 Type         := Physical Strength
+Race Opt 3 Characteristic 1 Amount       := 110
+Race Opt 3 Characteristic 2 Type         := Intelligence
+Race Opt 3 Characteristic 2 Amount       := 100
+Race Opt 3 Characteristic 3 Type         := Cunning
+Race Opt 3 Characteristic 3 Amount       := 90
+Race Opt 3 Characteristic 4 Type         := Reproduction
+Race Opt 3 Characteristic 4 Amount       := 104
+Race Opt 3 Characteristic 5 Type         := Happiness
+Race Opt 3 Characteristic 5 Amount       := 105
+Race Opt 3 Characteristic 6 Type         := Political Savvy
+Race Opt 3 Characteristic 6 Amount       := 100
+Race Opt 3 Characteristic 7 Type         := Mining Aptitude
+Race Opt 3 Characteristic 7 Amount       := 110
+Race Opt 3 Characteristic 8 Type         := Farming Aptitude
+Race Opt 3 Characteristic 8 Amount       := 103
+Race Opt 3 Characteristic 9 Type         := Refining Aptitude
+Race Opt 3 Characteristic 9 Amount       := 110
+Race Opt 3 Characteristic 10 Type        := Construction Aptitude
+Race Opt 3 Characteristic 10 Amount      := 100
+Race Opt 3 Num Advanced Traits           := 5
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := Rock Natives
+Race Opt 3 Adv Trait 3                   := AI Race
+Race Opt 3 Adv Trait 4                   := Natural Builders
+Race Opt 3 Adv Trait 5                   := High Density Urbanites
+
+=======================================================================================
+*END*
+=======================================================================================
+

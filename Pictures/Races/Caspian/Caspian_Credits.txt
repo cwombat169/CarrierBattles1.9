@@ -1,0 +1,46 @@
+Caspian Empire 
+Version 1.0 Gold/Deluxe
+
+By: William Christopher a.k.a Atrocities 
+
+New Age Ship Yards
+http://www.galileo.spaceports.com/~william/main.htm
+
+I took creative license with this race. Virtually every image in the race is new work with the exception of Race Portraits and Shield images.
+
+All other images were created using the Doga L3 Graphics editor. *CONTACT ME @ pcpatrocities@hotmail.com if you wish to use the original works contained in this set. You must have my permission prior to using them. Thank you.
+
+AI by: Malfador (Based upon the Terran) 
+
+PLEASE NOTE:
+I took creative license with this set. I wanted to have a set that was consistent throughout. This meant that I could not use existing ship images. 
+
+Notice:
+
+This Set was created using the DoGa L3 Graphics Editor. http://www.doga.co.jp/english/
+
+
+Installation:
+
+1. Unzip all files into your \Space Empires IV\Pictures\Races folder. 
+2. Copy the EMP files to the Empires Folder in your main SEIV Gold Directory.
+3. Copy the Design Names, example "TrekNames".Txt file to the DesignNames Folder in your main SEIV Gold Directory.
+4. Start a game, and select EXISTING RACE from the Players Tab.
+5. You can edit the race if you want. Just be sure to save your work. 
+
+Disclaimer:
+
+This is a work of fan art. Its author has not received
+compensation of any kind for this work.  
+
+Race style developed for SEIV by pcpatrocities@yahoo.com 
+
+Race Portrait came from the Internet.
+
+Revision History:
+
+V1.00 (11-10-2005)
+1. Original Release
+
+
+

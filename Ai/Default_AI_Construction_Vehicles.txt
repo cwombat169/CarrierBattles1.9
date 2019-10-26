@@ -1,0 +1,511 @@
+=======================================================================================
+AI CONSTRUCTION VEHICLES DATA FILE - Phong for Carrier Battles Mod version 0.1
+=======================================================================================
+
+AI State:
+	Exploration, Infrastructure, Prepare for Attack, Attack, 
+	Secure Holdings After Attack, Incursion, Prepare for Defense, 
+	Defend (Short Term), Defend (Long Term), Not Connected 
+
+
+Num Queue Entries:
+	Num Entries
+
+Entry X Type:
+	AI Design Type - 
+	Attack Ship, Defense Ship, Attack Base, Defense Base, Base Space Yard, 
+	Cargo Transport, Troop Transport, Carrier, Colony (Rock), Colony (Ice), 
+	Colony (Gas), Mine Layer, Mine Sweeper, Boarding Ship, Open Warp Point, 
+	Close Warp Point, Create Planet, Destroy Planet, Create Star, Destroy Star, 
+	Create Storm, Destroy Storm, Space Yard Ship, Mine, Satellite, Weapon Platform,
+	Troop, Fighter, Create Black Hole, Destroy Black Hole, Create Nebulae, 
+	Destroy Nebulae, Satellite Layer, Kamikaze Attack Ship, Recon Satellite
+
+
+Entry X Planet Per Item:
+	Number of planets per each item in 10ths. 
+	(20 = 2.0: We want 1 item for every 2 planets we have.)
+
+Entry X Must Have At Least:
+	Must have this many of this type in existance, or being built. 
+	If not, then build more.	
+	This comes before Planet Per Item.
+
+Rules:
+	1. The game picks a selection based on the AI State. There cannot be duplicate
+	AI states.
+	2. Item will be placed at whichever spaceyard is available and can get it done the fastest.
+	3. First item in the queue is selected, and evaluated. We construct if:
+	a. There are less than X planets per each item, (if there are 13 planets and we already
+	have 4 ships of this design type, and the Planet Per Item value = 3, 
+	then we buy another one). If PPI < (Num Planets / Num Ships of Type), construct. 
+	4. If the Build at Least value is greater than 0, we check if the Planet Per Item condition
+	is still true. If it is, then we purchase another one, if not, we move to the next 
+	queue item. If we do purchase another one, we continue in this loop until the
+	condition is false, or we have purchased the number in Build At Least.
+	5. When the last item is reached, it restarts at the beginning.
+
+
+one cycle: Bomber, Interceptor, Jaeger
+2nd cycle: Kamikaze Attack Ship, Carrier, Attack Ship, Boarding Ship, odd Ship
+odd ship cycle: Colonizer, Troop Transport (+Troops), Defense Base, Population Transport, Attack Base
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+AI State := Exploration, Infrastructure, Defend (Short Term), Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Long Term), Not Connected
+Num Queue Entries := 150
+Entry 1 Type := Attack Base
+Entry 1 Planet Per Item := 1000
+Entry 1 Must Have At Least := 1
+Entry 2 Type := Colonizer
+Entry 2 Planet Per Item := 0
+Entry 2 Must Have At Least := 3
+Entry 3 Type := Bomber
+Entry 3 Planet Per Item := 0
+Entry 3 Must Have At Least := 40
+Entry 4 Type := Interceptor
+Entry 4 Planet Per Item := 0
+Entry 4 Must Have At Least := 60
+Entry 5 Type := Kamikaze Attack Ship
+Entry 5 Planet Per Item := 200
+Entry 5 Must Have At Least := 2
+Entry 6 Type := Carrier
+Entry 6 Planet Per Item := 130
+Entry 6 Must Have At Least := 4
+Entry 7 Type := Attack Ship
+Entry 7 Planet Per Item := 170
+Entry 7 Must Have At Least := 3
+Entry 8 Type := Boarding Ship
+Entry 8 Planet Per Item := 180
+Entry 8 Must Have At Least := 2
+Entry 9 Type := Jaeger
+Entry 9 Planet Per Item := 0
+Entry 9 Must Have At Least := 80
+Entry 10 Type := Colonizer
+Entry 10 Planet Per Item := 110
+Entry 10 Must Have At Least := 4
+Entry 11 Type := Bomber
+Entry 11 Planet Per Item := 0
+Entry 11 Must Have At Least := 120
+Entry 12 Type := Kamikaze Attack Ship
+Entry 12 Planet Per Item := 140
+Entry 12 Must Have At Least := 5
+Entry 13 Type := Interceptor
+Entry 13 Planet Per Item := 0
+Entry 13 Must Have At Least := 140
+Entry 14 Type := Carrier
+Entry 14 Planet Per Item := 100
+Entry 14 Must Have At Least := 7
+Entry 15 Type := Jaeger
+Entry 15 Planet Per Item := 0
+Entry 15 Must Have At Least := 170
+Entry 16 Type := Attack Ship
+Entry 16 Planet Per Item := 150
+Entry 16 Must Have At Least := 5
+Entry 17 Type := Bomber
+Entry 17 Planet Per Item := 1
+Entry 17 Must Have At Least := 200
+Entry 18 Type := Boarding Ship
+Entry 18 Planet Per Item := 130
+Entry 18 Must Have At Least := 4
+Entry 19 Type := Interceptor
+Entry 19 Planet Per Item := 1
+Entry 19 Must Have At Least := 240
+Entry 20 Type := Troop Transport
+Entry 20 Planet Per Item := 200
+Entry 20 Must Have At Least := 3
+Entry 21 Type := Troop
+Entry 21 Planet Per Item := 1
+Entry 21 Must Have At Least := 300
+Entry 22 Type := Jaeger
+Entry 22 Planet Per Item := 1
+Entry 22 Must Have At Least := 280
+Entry 23 Type := Kamikaze Attack Ship
+Entry 23 Planet Per Item := 110
+Entry 23 Must Have At Least := 7
+Entry 24 Type := Bomber
+Entry 24 Planet Per Item := 1
+Entry 24 Must Have At Least := 330
+Entry 25 Type := Carrier
+Entry 25 Planet Per Item := 60
+Entry 25 Must Have At Least := 12
+Entry 26 Type := Interceptor
+Entry 26 Planet Per Item := 1
+Entry 26 Must Have At Least := 360
+Entry 27 Type := Attack Ship
+Entry 27 Planet Per Item := 105
+Entry 27 Must Have At Least := 9
+Entry 28 Type := Jaeger
+Entry 28 Planet Per Item := 1
+Entry 28 Must Have At Least := 400
+Entry 29 Type := Boarding Ship
+Entry 29 Planet Per Item := 100
+Entry 29 Must Have At Least := 6
+Entry 30 Type := Bomber
+Entry 30 Planet Per Item := 1
+Entry 30 Must Have At Least := 450
+Entry 31 Type := Defense Base
+Entry 31 Planet Per Item := 80
+Entry 31 Must Have At Least := 4
+Entry 32 Type := Interceptor
+Entry 32 Planet Per Item := 1
+Entry 32 Must Have At Least := 480
+Entry 33 Type := Population Transport
+Entry 33 Planet Per Item := 200
+Entry 33 Must Have At Least := 2
+Entry 34 Type := Jaeger
+Entry 34 Planet Per Item := 1
+Entry 34 Must Have At Least := 520
+Entry 35 Type := Kamikaze Attack Ship
+Entry 35 Planet Per Item := 70
+Entry 35 Must Have At Least := 12
+Entry 36 Type := Bomber
+Entry 36 Planet Per Item := 1
+Entry 36 Must Have At Least := 570
+Entry 37 Type := Carrier
+Entry 37 Planet Per Item := 45
+Entry 37 Must Have At Least := 16
+Entry 38 Type := Interceptor
+Entry 38 Planet Per Item := 1
+Entry 38 Must Have At Least := 600
+Entry 39 Type := Attack Ship
+Entry 39 Planet Per Item := 65
+Entry 39 Must Have At Least := 14
+Entry 40 Type := Jaeger
+Entry 40 Planet Per Item := 1
+Entry 40 Must Have At Least := 650
+Entry 41 Type := Boarding Ship
+Entry 41 Planet Per Item := 80
+Entry 41 Must Have At Least := 11
+Entry 42 Type := Bomber
+Entry 42 Planet Per Item := 1
+Entry 42 Must Have At Least := 700
+Entry 43 Type := Troop Transport
+Entry 43 Planet Per Item := 140
+Entry 43 Must Have At Least := 6
+Entry 44 Type := Troop
+Entry 44 Planet Per Item := 1
+Entry 44 Must Have At Least := 600
+Entry 45 Type := Interceptor
+Entry 45 Planet Per Item := 1
+Entry 45 Must Have At Least := 750
+Entry 46 Type := Defense Base
+Entry 46 Planet Per Item := 50
+Entry 46 Must Have At Least := 8
+Entry 47 Type := Jaeger
+Entry 47 Planet Per Item := 1
+Entry 47 Must Have At Least := 800
+Entry 48 Type := Kamikaze Attack Ship
+Entry 48 Planet Per Item := 50
+Entry 48 Must Have At Least := 20
+Entry 49 Type := Bomber
+Entry 49 Planet Per Item := 1
+Entry 49 Must Have At Least := 900
+Entry 50 Type := Carrier
+Entry 50 Planet Per Item := 35
+Entry 50 Must Have At Least := 30
+Entry 51 Type := Interceptor
+Entry 51 Planet Per Item := 1
+Entry 51 Must Have At Least := 1000
+Entry 52 Type := Attack Ship
+Entry 52 Planet Per Item := 55
+Entry 52 Must Have At Least := 18
+Entry 53 Type := Jaeger
+Entry 53 Planet Per Item := 1
+Entry 53 Must Have At Least := 1200
+Entry 54 Type := Boarding Ship
+Entry 54 Planet Per Item := 65
+Entry 54 Must Have At Least := 14
+Entry 55 Type := Bomber
+Entry 55 Planet Per Item := 1
+Entry 55 Must Have At Least := 1500
+Entry 56 Type := Defense Base
+Entry 56 Planet Per Item := 35
+Entry 56 Must Have At Least := 20
+Entry 57 Type := Interceptor
+Entry 57 Planet Per Item := 1
+Entry 57 Must Have At Least := 1800
+Entry 58 Type := none
+Entry 58 Planet Per Item := 0
+Entry 58 Must Have At Least := 0
+Entry 59 Type := Jaeger
+Entry 59 Planet Per Item := 1
+Entry 59 Must Have At Least := 2300
+Entry 60 Type := Kamikaze Attack Ship
+Entry 60 Planet Per Item := 40
+Entry 60 Must Have At Least := 25
+Entry 61 Type := Bomber
+Entry 61 Planet Per Item := 1
+Entry 61 Must Have At Least := 2800
+Entry 62 Type := Carrier
+Entry 62 Planet Per Item := 20
+Entry 62 Must Have At Least := 35
+Entry 63 Type := Interceptor
+Entry 63 Planet Per Item := 1
+Entry 63 Must Have At Least := 3100
+Entry 64 Type := Attack Ship
+Entry 64 Planet Per Item := 45
+Entry 64 Must Have At Least := 20
+Entry 65 Type := Jaeger
+Entry 65 Planet Per Item := 1
+Entry 65 Must Have At Least := 3500
+Entry 66 Type := Boarding Ship
+Entry 66 Planet Per Item := 50
+Entry 66 Must Have At Least := 18
+Entry 67 Type := Bomber
+Entry 67 Planet Per Item := 1
+Entry 67 Must Have At Least := 4000
+Entry 68 Type := Defense Base
+Entry 68 Planet Per Item := 30
+Entry 68 Must Have At Least := 20
+Entry 69 Type := Interceptor
+Entry 69 Planet Per Item := 1
+Entry 69 Must Have At Least := 4300
+Entry 70 Type := none
+Entry 70 Planet Per Item := 0
+Entry 70 Must Have At Least := 0
+Entry 71 Type := Jaeger
+Entry 71 Planet Per Item := 1
+Entry 71 Must Have At Least := 4800
+Entry 72 Type := Kamikaze Attack Ship
+Entry 72 Planet Per Item := 30
+Entry 72 Must Have At Least := 30
+Entry 73 Type := Bomber
+Entry 73 Planet Per Item := 1
+Entry 73 Must Have At Least := 5300
+Entry 74 Type := Carrier
+Entry 74 Planet Per Item := 15
+Entry 74 Must Have At Least := 40
+Entry 75 Type := Interceptor
+Entry 75 Planet Per Item := 1
+Entry 75 Must Have At Least := 5600
+Entry 76 Type := Attack Ship
+Entry 76 Planet Per Item := 35
+Entry 76 Must Have At Least := 25
+Entry 77 Type := Jaeger
+Entry 77 Planet Per Item := 1
+Entry 77 Must Have At Least := 6000
+Entry 78 Type := Boarding Ship
+Entry 78 Planet Per Item := 40
+Entry 78 Must Have At Least := 20
+Entry 79 Type := Bomber
+Entry 79 Planet Per Item := 1
+Entry 79 Must Have At Least := 6500
+Entry 80 Type := Defense Base
+Entry 80 Planet Per Item := 25
+Entry 80 Must Have At Least := 25
+Entry 81 Type := Interceptor
+Entry 81 Planet Per Item := 1
+Entry 81 Must Have At Least := 7000
+Entry 82 Type := none
+Entry 82 Planet Per Item := 0
+Entry 82 Must Have At Least := 0
+Entry 83 Type := Jaeger
+Entry 83 Planet Per Item := 1
+Entry 83 Must Have At Least := 7500
+Entry 84 Type := Kamikaze Attack Ship
+Entry 84 Planet Per Item := 25
+Entry 84 Must Have At Least := 35
+Entry 85 Type := Bomber
+Entry 85 Planet Per Item := 1
+Entry 85 Must Have At Least := 8000
+Entry 86 Type := Carrier
+Entry 86 Planet Per Item := 10
+Entry 86 Must Have At Least := 50
+Entry 87 Type := Interceptor
+Entry 87 Planet Per Item := 1
+Entry 87 Must Have At Least := 8500
+Entry 88 Type := Attack Ship
+Entry 88 Planet Per Item := 30
+Entry 88 Must Have At Least := 30
+Entry 89 Type := Jaeger
+Entry 89 Planet Per Item := 1
+Entry 89 Must Have At Least := 9000
+Entry 90 Type := Boarding Ship
+Entry 90 Planet Per Item := 35
+Entry 90 Must Have At Least := 25
+Entry 91 Type := Bomber
+Entry 91 Planet Per Item := 1
+Entry 91 Must Have At Least := 9500
+Entry 92 Type := Defense Base
+Entry 92 Planet Per Item := 20
+Entry 92 Must Have At Least := 30
+Entry 93 Type := Interceptor
+Entry 93 Planet Per Item := 1
+Entry 93 Must Have At Least := 10000
+Entry 94 Type := none
+Entry 94 Planet Per Item := 0
+Entry 94 Must Have At Least := 0
+Entry 95 Type := Jaeger
+Entry 95 Planet Per Item := 1
+Entry 95 Must Have At Least := 10500
+Entry 96 Type := Kamikaze Attack Ship
+Entry 96 Planet Per Item := 20
+Entry 96 Must Have At Least := 45
+Entry 97 Type := Bomber
+Entry 97 Planet Per Item := 1
+Entry 97 Must Have At Least := 11000
+Entry 98 Type := Carrier
+Entry 98 Planet Per Item := 8
+Entry 98 Must Have At Least := 60
+Entry 99 Type := Interceptor
+Entry 99 Planet Per Item := 1
+Entry 99 Must Have At Least := 11500
+Entry 100 Type := Attack Ship
+Entry 100 Planet Per Item := 25
+Entry 100 Must Have At Least := 35
+Entry 101 Type := Jaeger
+Entry 101 Planet Per Item := 1
+Entry 101 Must Have At Least := 12000
+Entry 102 Type := Boarding Ship
+Entry 102 Planet Per Item := 30
+Entry 102 Must Have At Least := 30
+Entry 103 Type := Bomber
+Entry 103 Planet Per Item := 1
+Entry 103 Must Have At Least := 13000
+Entry 104 Type := Defense Base
+Entry 104 Planet Per Item := 15
+Entry 104 Must Have At Least := 40
+Entry 105 Type := Interceptor
+Entry 105 Planet Per Item := 1
+Entry 105 Must Have At Least := 13500
+Entry 106 Type := none
+Entry 106 Planet Per Item := 0
+Entry 106 Must Have At Least := 0
+Entry 107 Type := Jaeger
+Entry 107 Planet Per Item := 1
+Entry 107 Must Have At Least := 14000
+Entry 108 Type := Kamikaze Attack Ship
+Entry 108 Planet Per Item := 15
+Entry 108 Must Have At Least := 50
+Entry 109 Type := Bomber
+Entry 109 Planet Per Item := 1
+Entry 109 Must Have At Least := 15000
+Entry 110 Type := Carrier
+Entry 110 Planet Per Item := 6
+Entry 110 Must Have At Least := 70
+Entry 111 Type := Interceptor
+Entry 111 Planet Per Item := 1
+Entry 111 Must Have At Least := 16000
+Entry 112 Type := Attack Ship
+Entry 112 Planet Per Item := 20
+Entry 112 Must Have At Least := 40
+Entry 113 Type := Jaeger
+Entry 113 Planet Per Item := 1
+Entry 113 Must Have At Least := 17000
+Entry 114 Type := Boarding Ship
+Entry 114 Planet Per Item := 25
+Entry 114 Must Have At Least := 35
+Entry 115 Type := Bomber
+Entry 115 Planet Per Item := 1
+Entry 115 Must Have At Least := 18000
+Entry 116 Type := Defense Base
+Entry 116 Planet Per Item := 10
+Entry 116 Must Have At Least := 50
+Entry 117 Type := Interceptor
+Entry 117 Planet Per Item := 1
+Entry 117 Must Have At Least := 19000
+Entry 118 Type := none
+Entry 118 Planet Per Item := 0
+Entry 118 Must Have At Least := 0
+Entry 119 Type := Jaeger
+Entry 119 Planet Per Item := 1
+Entry 119 Must Have At Least := 20000
+Entry 120 Type := Kamikaze Attack Ship
+Entry 120 Planet Per Item := 10
+Entry 120 Must Have At Least := 60
+Entry 121 Type := Bomber
+Entry 121 Planet Per Item := 1
+Entry 121 Must Have At Least := 21000
+Entry 122 Type := Carrier
+Entry 122 Planet Per Item := 4
+Entry 122 Must Have At Least := 100
+Entry 123 Type := Interceptor
+Entry 123 Planet Per Item := 1
+Entry 123 Must Have At Least := 22000
+Entry 124 Type := Attack Ship
+Entry 124 Planet Per Item := 15
+Entry 124 Must Have At Least := 40
+Entry 125 Type := Jaeger
+Entry 125 Planet Per Item := 1
+Entry 125 Must Have At Least := 23000
+Entry 126 Type := Boarding Ship
+Entry 126 Planet Per Item := 20
+Entry 126 Must Have At Least := 45
+Entry 127 Type := Bomber
+Entry 127 Planet Per Item := 1
+Entry 127 Must Have At Least := 24000
+Entry 128 Type := none
+Entry 128 Planet Per Item := 0
+Entry 128 Must Have At Least := 0
+Entry 129 Type := Interceptor
+Entry 129 Planet Per Item := 1
+Entry 129 Must Have At Least := 25000
+Entry 130 Type := none
+Entry 130 Planet Per Item := 0
+Entry 130 Must Have At Least := 0
+Entry 131 Type := Jaeger
+Entry 131 Planet Per Item := 1
+Entry 131 Must Have At Least := 26000
+Entry 132 Type := Kamikaze Attack Ship
+Entry 132 Planet Per Item := 8
+Entry 132 Must Have At Least := 70
+Entry 133 Type := Bomber
+Entry 133 Planet Per Item := 1
+Entry 133 Must Have At Least := 27000
+Entry 134 Type := Carrier
+Entry 134 Planet Per Item := 2
+Entry 134 Must Have At Least := 200
+Entry 135 Type := Interceptor
+Entry 135 Planet Per Item := 1
+Entry 135 Must Have At Least := 28000
+Entry 136 Type := Attack Ship
+Entry 136 Planet Per Item := 10
+Entry 136 Must Have At Least := 60
+Entry 137 Type := Jaeger
+Entry 137 Planet Per Item := 1
+Entry 137 Must Have At Least := 29000
+Entry 138 Type := Boarding Ship
+Entry 138 Planet Per Item := 15
+Entry 138 Must Have At Least := 50
+Entry 139 Type := Bomber
+Entry 139 Planet Per Item := 1
+Entry 139 Must Have At Least := 30000
+Entry 140 Type := Defense Base
+Entry 140 Planet Per Item := 8
+Entry 140 Must Have At Least := 60
+Entry 141 Type := Interceptor
+Entry 141 Planet Per Item := 1
+Entry 141 Must Have At Least := 31000
+Entry 142 Type := none
+Entry 142 Planet Per Item := 0
+Entry 142 Must Have At Least := 0
+Entry 143 Type := Jaeger
+Entry 143 Planet Per Item := 1
+Entry 143 Must Have At Least := 32000
+Entry 144 Type := Kamikaze Attack Ship
+Entry 144 Planet Per Item := 4
+Entry 144 Must Have At Least := 80
+Entry 145 Type := Bomber
+Entry 145 Planet Per Item := 1
+Entry 145 Must Have At Least := 33000
+Entry 146 Type := Carrier
+Entry 146 Planet Per Item := 1
+Entry 146 Must Have At Least := 500
+Entry 147 Type := Interceptor
+Entry 147 Planet Per Item := 1
+Entry 147 Must Have At Least := 34000
+Entry 148 Type := Attack Ship
+Entry 148 Planet Per Item := 3
+Entry 148 Must Have At Least := 120
+Entry 149 Type := Jaeger
+Entry 149 Planet Per Item := 1
+Entry 149 Must Have At Least := 35000
+Entry 150 Type := Boarding Ship
+Entry 150 Planet Per Item := 5
+Entry 150 Must Have At Least := 100
+
+=======================================================================================
+*END*
+=======================================================================================

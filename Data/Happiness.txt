@@ -1,0 +1,202 @@
+=======================================================================================
+HAPPINESS DATA FILE
+=======================================================================================
+
+Population Happiness Levels:
+Pop Anger Pct      Description     Res Mod   
+75 - 100           Rioting         0%        
+60 - 74            Angry           60%       
+45 - 59            Unhappy         80%       
+30 - 44            Indifferent     100%      
+15 - 29            Happy           120%      
+0 - 14             Jubiliant       140%      
+
+
+Population Happiness Effects:
+- Riot prevents any point generation from that planet.
+- If a planet riots for sufficient time, it may rebel.
+- Rebellion changes the planet to a new owner.
+- Happiness level modifies output of the planet.
+
+All values are in 10ths of a percent.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                             := Peaceful
+Description                      := Populations enjoy the products of hard work.  Constructing things, building alliances and having patrol ships enforcing the peace all help to keep the populace happy.  Combat is never a good thing, but quick victories minimize the damage.  Enemy troops will quickly demoralize the local population.
+Max Positive Anger Change        := 30
+Max Negative Anger Change        := -200
+Homeworld Lost                   := 100
+Any Planet Lost                  := 50
+Any Planet Colonized             := -10
+Any Our Planet Captured          := 50
+Any Enemy Planet Captured        := 20
+Any Ship Lost                    := 1
+Any Ship Constructed             := 0
+New Treaty War                   := 100
+New Treaty Non Intercourse       := 25 
+New Treaty None                  := 25
+New Treaty Non Aggression        := 0
+New Treaty Subjugated (Sub)      := 200
+New Treaty Protectorate (Sub)    := 150
+New Treaty Subjugated (Dom)      := 0
+New Treaty Protectorate (Dom)    := 0
+New Treaty Trade                 := -20
+New Treaty Trade and Research    := -30
+New Treaty Military Alliance     := -50
+New Treaty Partnership           := -100
+Battle in System - Win           := 0
+Battle in System - Loss          := 5
+Battle in System - Stalemate     := 1
+Battle in Sector - Win           := 0
+Battle in Sector - Loss          := 10
+Battle in Sector - Stalemate     := 2
+Enemy Ship in System             := 0
+Enemy Ship in Sector             := 1
+Our Ship in Sector               := -1
+Our Ship in System               := -1
+Enemy Troops on Planet           := 1
+Our Troops on Planet             := 0
+1M Population Killed             := 1
+Ship Lost in System              := 1
+Ship Constructed                 := -5
+Facility Constructed             := -25
+Planet Plagued                   := 10
+Natural Decrease                 := -30
+Natural Decrease for Other Races := -10
+
+Name                             := Bloodthirsty
+Description                      := Populations love wars and the spectacle of combat.  They don't care if they win or not, they just like to fight.  Invading troops are nothing out of the ordinary; merely a larger than average street brawl.  Local defense ships are unwelcome, since they are not out fighting something.  Riots are fun, and will not end without an external distraction.
+Max Positive Anger Change        := 20
+Max Negative Anger Change        := -20
+Homeworld Lost                   := 0
+Any Planet Lost                  := 0
+Any Planet Colonized             := 0
+Any Our Planet Captured          := -10
+Any Enemy Planet Captured        := -50
+Any Ship Lost                    := -1
+Any Ship Constructed             := 0
+New Treaty War                   := -25
+New Treaty Non Intercourse       := 0 
+New Treaty None                  := 0
+New Treaty Non Aggression        := 0
+New Treaty Subjugated (Sub)      := 200
+New Treaty Protectorate (Sub)    := 150
+New Treaty Subjugated (Dom)      := 0
+New Treaty Protectorate (Dom)    := 0
+New Treaty Trade                 := 50
+New Treaty Trade and Research    := 50
+New Treaty Military Alliance     := 100
+New Treaty Partnership           := 150
+Battle in System - Win           := -10
+Battle in System - Loss          := -2
+Battle in System - Stalemate     := -1
+Battle in Sector - Win           := -100
+Battle in Sector - Loss          := -20
+Battle in Sector - Stalemate     := -10
+Enemy Ship in System             := -1
+Enemy Ship in Sector             := 0
+Our Ship in Sector               := 1
+Our Ship in System               := 0
+Enemy Troops on Planet           := 0
+Our Troops on Planet             := 0
+1M Population Killed             := 1
+Ship Lost in System              := -1
+Ship Constructed                 := 0
+Facility Constructed             := 0
+Planet Plagued                   := 20
+Natural Decrease                 := 0
+Natural Decrease for Other Races := 1
+
+Name                             := Provincial
+Description                      := Populations prefer that their race is left alone but do not mind treaties as long as the others do not poke their noses into local business.  They respond poorly to any unusual events, and though they are very slow to anger, they are even slower to forgive.
+Max Positive Anger Change        := 3
+Max Negative Anger Change        := -2
+Homeworld Lost                   := 20
+Any Planet Lost                  := 20
+Any Planet Colonized             := 20
+Any Our Planet Captured          := 20
+Any Enemy Planet Captured        := 20
+Any Ship Lost                    := 1
+Any Ship Constructed             := 0
+New Treaty War                   := 100
+New Treaty Non Intercourse       := -100 
+New Treaty None                  := -100
+New Treaty Non Aggression        := 0
+New Treaty Subjugated (Sub)      := 100
+New Treaty Protectorate (Sub)    := 100
+New Treaty Subjugated (Dom)      := 0
+New Treaty Protectorate (Dom)    := 0
+New Treaty Trade                 := 0
+New Treaty Trade and Research    := 0
+New Treaty Military Alliance     := 0
+New Treaty Partnership           := 0
+Battle in System - Win           := 20
+Battle in System - Loss          := 20
+Battle in System - Stalemate     := 5
+Battle in Sector - Win           := 20
+Battle in Sector - Loss          := 20
+Battle in Sector - Stalemate     := 5
+Enemy Ship in System             := 1
+Enemy Ship in Sector             := 1
+Our Ship in Sector               := 0
+Our Ship in System               := 0
+Enemy Troops on Planet           := 1
+Our Troops on Planet             := 0
+1M Population Killed             := 1
+Ship Lost in System              := 1
+Ship Constructed                 := 0
+Facility Constructed             := -1
+Planet Plagued                   := 5
+Natural Decrease                 := -1
+Natural Decrease for Other Races := -1
+
+Name                             := Masochistic
+Description                      := Populations enjoy pain and suffering.  They thrive on combat losses, but get upset when they win.  Keep defense ships out of the system, and thus out of sight.  In a pinch, a suicide mission will raise their spirits.  Medical facilities still provide a happiness boost, thanks to a wide range of elective operations.
+Max Positive Anger Change        := 20
+Max Negative Anger Change        := -200
+Homeworld Lost                   := -200
+Any Planet Lost                  := -50
+Any Planet Colonized             := 10
+Any Our Planet Captured          := -50
+Any Enemy Planet Captured        := 50
+Any Ship Lost                    := -10
+Any Ship Constructed             := 0
+New Treaty War                   := -100
+New Treaty Non Intercourse       := 0 
+New Treaty None                  := 0
+New Treaty Non Aggression        := 0
+New Treaty Subjugated (Sub)      := -200
+New Treaty Protectorate (Sub)    := -150
+New Treaty Subjugated (Dom)      := 0
+New Treaty Protectorate (Dom)    := 0
+New Treaty Trade                 := 20
+New Treaty Trade and Research    := 30
+New Treaty Military Alliance     := 50
+New Treaty Partnership           := 100
+Battle in System - Win           := 20
+Battle in System - Loss          := -20
+Battle in System - Stalemate     := 0
+Battle in Sector - Win           := 40
+Battle in Sector - Loss          := -40
+Battle in Sector - Stalemate     := 0
+Enemy Ship in System             := -10
+Enemy Ship in Sector             := -20
+Our Ship in Sector               := 0
+Our Ship in System               := 1
+Enemy Troops on Planet           := -1
+Our Troops on Planet             := 0
+1M Population Killed             := -1
+Ship Lost in System              := -2
+Ship Constructed                 := 5
+Facility Constructed             := 5
+Planet Plagued                   := -50
+Natural Decrease                 := 0
+Natural Decrease for Other Races := 10
+
+=======================================================================================
+*END*
+=======================================================================================
+

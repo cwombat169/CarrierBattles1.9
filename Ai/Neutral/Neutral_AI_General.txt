@@ -1,0 +1,63 @@
+=======================================================================================
+AI DATA FILE - General
+=======================================================================================
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Default
+Description                              := A generic personality.
+Empire Name                              := 
+Empire Type                              := 
+Emperor Name                             := 
+Emperor Title                            := 
+Biological Description                   := Humanoid physiology.
+Society Description                      := Modern democracy.
+General History Description              := Almost destroyed themselves with nuclear weapons, but finally matured into a space-faring society.
+Demeanor                                 := Neutral
+Culture                                  := Neutral
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Oxygen
+Design Name File                         := Ravager
+Race Opt 1 Num Characteristics           := 4
+Race Opt 1 Characteristic 1 Type         := Mining Aptitude
+Race Opt 1 Characteristic 1 Amount       := 120
+Race Opt 1 Characteristic 2 Type         := Farming Aptitude
+Race Opt 1 Characteristic 2 Amount       := 120
+Race Opt 1 Characteristic 3 Type         := Refining Aptitude
+Race Opt 1 Characteristic 3 Amount       := 120
+Race Opt 1 Characteristic 4 Type         := Construction Aptitude
+Race Opt 1 Characteristic 4 Amount       := 120
+Race Opt 1 Num Advanced Traits           := 0
+Race Opt 2 Num Characteristics           := 4
+Race Opt 2 Characteristic 1 Type         := Mining Aptitude
+Race Opt 2 Characteristic 1 Amount       := 120
+Race Opt 2 Characteristic 2 Type         := Farming Aptitude
+Race Opt 2 Characteristic 2 Amount       := 120
+Race Opt 2 Characteristic 3 Type         := Refining Aptitude
+Race Opt 2 Characteristic 3 Amount       := 120
+Race Opt 2 Characteristic 4 Type         := Construction Aptitude
+Race Opt 2 Characteristic 4 Amount       := 120
+Race Opt 2 Num Advanced Traits           := 1
+Race Opt 2 Adv Trait 1                   := Propulsion Experts
+Race Opt 3 Num Characteristics           := 4
+Race Opt 3 Characteristic 1 Type         := Mining Aptitude
+Race Opt 3 Characteristic 1 Amount       := 120
+Race Opt 3 Characteristic 2 Type         := Farming Aptitude
+Race Opt 3 Characteristic 2 Amount       := 120
+Race Opt 3 Characteristic 3 Type         := Refining Aptitude
+Race Opt 3 Characteristic 3 Amount       := 120
+Race Opt 3 Characteristic 4 Type         := Construction Aptitude
+Race Opt 3 Characteristic 4 Amount       := 120
+Race Opt 3 Num Advanced Traits           := 3
+Race Opt 3 Adv Trait 1                   := Propulsion Experts
+Race Opt 3 Adv Trait 2                   := Advanced Power Conservation
+Race Opt 3 Adv Trait 3                   := Natural Merchants
+
+=======================================================================================
+*END*
+=======================================================================================
+

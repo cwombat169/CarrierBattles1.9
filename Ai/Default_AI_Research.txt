@@ -1,0 +1,275 @@
+=======================================================================================
+AI RESEARCH DATA FILE - Normal
+=======================================================================================
+
+AI State:
+  Exploration, Infrastructure, Prepare for Attack, Attack, 
+  Secure Holdings After Attack, Incursion, Prepare for Defense, 
+  Defend (Short Term), Defend (Long Term), Not Connected 
+
+Tech Area Name:
+  The name of the tech area.
+  This project will only be added if:
+    This Tech Area is visible.
+    The Tech Area Level has not been achieved yet.
+    Adding this tech area will not violate the Tech Area Min Percentage
+      of any of the existing items.
+
+  Even if an item is marked as 100, it can be with other projects. If there
+  are already exisiting projects and they allow another project to be
+  added (say 2 projects which each have 33 or 25), then the 100 will be
+  added. After that however, no new projects will be added until the 
+  100 eventually completes.  
+
+Tech Area Level:
+  The level of this tech area that must be obtained before this
+  item is complete. To make sure an entire tech area is completed
+  to its maximum tech, set this value to 9999.
+  
+Tech Area Min Percent:
+  100 - This needs to be the only research project.
+  50  - There can be one other project with this.
+  33  - There can be 2 other projects.
+  25  - There can be 3 other projects.
+
+  As written above, this is not an absolute rule. It is only enforced by 
+  not allowing new projects to be added. The reasoning for this is even if
+  you specify that you want a project to be getting 100% of the research
+  points, that doesn't mean you want to wait to start it until you complete
+  all of the other projects. You want to start it as soon as possible, and
+  then when the others complete, it will be the only one present. 
+  
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := AI Race
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Air Freshener
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Monocle
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Trenchcoat
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Sunscreen
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Frisbee
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Flower Pot
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Colander
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Whiskey
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ancient Toupee
+Tech Area Level              := 2
+Tech Area Min Percent        := 1
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Torpedo Weapons
+Tech Area Level              := 1
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Shields
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ship Construction
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Capital Ship Propulsion
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Fighter Propulsion
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Projectile Weapons
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Weapon Utilization
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Beam Weapons
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Automation
+Tech Area Level              := 1
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Shields
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Torpedo Weapons
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Applied Intelligence
+Tech Area Level              := 1
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Missile Manufacturing
+Tech Area Level              := 1
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Fighters
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Beam Weapons
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ship Construction
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Missile Manufacturing
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Automation
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Armor
+Tech Area Level              := 4
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Troop Weapons
+Tech Area Level              := 1
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Troops
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Missile Targetting
+Tech Area Level              := 1
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Shields
+Tech Area Level              := 4
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Applied Research
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Armor
+Tech Area Level              := 6
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Cargo
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Torpedo Weapons
+Tech Area Level              := 4
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Automation
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Projectile Weapons
+Tech Area Level              := 4
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Missile Manufacturing
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Fighter Propulsion
+Tech Area Level              := 5
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Capital Ship Propulsion
+Tech Area Level              := 5
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Medical Technology
+Tech Area Level              := 2
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Cargo
+Tech Area Level              := 3
+Tech Area Min Percent        := 34
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term) 
+Tech Area Name               := Ship Construction
+Tech Area Level              := 4
+Tech Area Min Percent        := 34
+
+=======================================================================================
+*END*
+=======================================================================================
+

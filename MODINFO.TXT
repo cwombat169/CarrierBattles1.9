@@ -1,0 +1,27 @@
+Modinfo2
+Obsolete:-
+False
+ModName:-
+Carrier Battles
+Version:-
+1.7b (for SE4 Deluxe, PBW games playable using Gold)
+Author:-
+Suicide Junkie
+EMail:-
+imagemod@gmail.com
+Website:-
+http://imagemodserver.mine.nu
+Description:-
+Note: Turns must be processed using SE4 v1.94 or higher.
+Turns may be played using 1.91 or higher.
+
+Now with AIs!
+ - Do not set the AI bonus above low, or you will be steamrolled!  High difficulty/Low or No Bonus settings reccommended.  Elite players should try team mode.
+
+This version adds support for JunkyardWars games (no research facilities, lots of ruins), as well as ring/sphereworlds which can be added with the map editor, and unique ruins techs which require racial traits to take full advantage of them.
+ 
+   Carriers and their fighters are the new focus of combat, although supporting warships are quite nessesary as well.  Fighters fill out the roles of antiship bombers, missile interceptors and fighter-killers.  Four types of direct fire weapons are mounted into 20mm to 100mm cannons, in order to span the entire range of anti-missile weapons to capital ship killers.  A variety of missiles are also available, from light and fast anti-missile missiles through to heavy, armored planet-killers.  With se3-style point defense and infinite range missiles, the seekers are quite a threat despite the fact that they consume massive amounts of supply and do less damage per ton than direct fire weapons.
+   
+   Race setup options are more limited than stock SE4, but make for a diverse set of very unique and quite viable race styles to choose from.  From the classic combat skills of the "Berzerkers", to the double build rate "Disposable Society", to the high tech "Brainiacs"
+
+   This mod comes with the full set of Leaky Features; leaky shields, leaky armor, leaky PD.

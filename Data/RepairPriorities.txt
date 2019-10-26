@@ -1,0 +1,16 @@
+How repair works:
+Any items on this side of the screen are "High Priority"  On the left is "Low Priority"
+A ship with high priority component damage will be picked first for repair.
+High priority components will be repaired in order of placement on the design.  Any leftover repair points will be used to repair low priority components on the same ship, in order of placement.
+A ship which has all of its high priority components fixed will not be high priority on the next turn, and it is likely to be passed over in favor of a different ship which still has high priority damage.
+Reccommended repair priorities are below; once ships are mobile, they can be moved out of combat to a high capacity repair planet in safe territory.
+==========
+Construction
+Command Computer
+Bridge
+Automation
+Crew Support
+Drive Reactors
+Engines (Small)
+Engines (Medium)
+Engines (Large)

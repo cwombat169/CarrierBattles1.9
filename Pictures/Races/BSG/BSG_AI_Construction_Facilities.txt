@@ -1,0 +1,318 @@
+=======================================================================================
+AI CONSTRUCTION FACILITIES DATA FILE - Colonials for Carrier Battles 1.8
+=======================================================================================
+
+AI Tag 01 := Minerals Extraction
+AI Tag 02 := Organics Extraction
+AI Tag 03 := Radioactives Extraction
+AI Tag 04 := Research Generation
+AI Tag 05 := Mixed Storage
+AI Tag 06 := Repair Facility
+
+
+Construction Queue Type:
+  Homeworld, Mining Colony, Farming Colony, Refining Colony,
+  Resupply Base, Research Compound, Intelligence Compound, Construction Yard,
+  Military Installation
+
+AI State:
+  Exploration, Infrastructure, Prepare for Attack, Attack, 
+  Secure Holdings After Attack, Incursion, Prepare for Defense, 
+  Defend (Short Term), Defend (Long Term), Not Connected 
+
+
+Rules:
+  1. If there is no facility with the given ability type (have not achieved that
+     technology), then facility is not built.
+  2. Only queues that match the current AI State will be evaluated.
+  3. When facility space on a planet runs out, no more facility entries will be
+     evaluated (so put the facilities you must have on the planet first).
+  4. If ability is used at a system level (Spaceport, Resupply Depot, etc), 
+     then item will only be constructed if it doesn't already exist in the 
+     system.
+  
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+AI State                     := Exploration, Infrastructure, Not Connected, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term)
+Construction Queue Type      := Homeworld
+Num Queue Entries            := 16
+Facility 1 Ability           := Supply Generation
+Facility 1 Amount            := 1
+Facility 2 Ability           := Spaceport
+Facility 2 Amount            := 1
+Facility 3 Ability           := AI Tag 01
+Facility 3 Amount            := 3
+Facility 4 Ability           := AI Tag 02
+Facility 4 Amount            := 1
+Facility 5 Ability           := AI Tag 03
+Facility 5 Amount            := 3
+Facility 6 Ability           := Space Yard
+Facility 6 Amount            := 1
+Facility 7 Ability           := AI Tag 06
+Facility 7 Amount            := 1
+Facility 8 Ability           := Planet Value Change - System
+Facility 8 Amount            := 1
+Facility 9 Ability           := Resource Gen Modifier System - Minerals
+Facility 9 Amount            := 1
+Facility 10 Ability          := Resource Gen Modifier Planet - Minerals
+Facility 10 Amount           := 1
+Facility 11 Ability          := Resource Gen Modifier System - Radioactives
+Facility 11 Amount           := 1
+Facility 12 Ability          := Resource Gen Modifier Planet - Radioactives
+Facility 12 Amount           := 1
+Facility 13 Ability          := Planet - Change Conditions
+Facility 13 Amount           := 1
+Facility 14 Ability          := AI Tag 01
+Facility 14 Amount           := 5
+Facility 15 Ability          := AI Tag 03
+Facility 15 Amount           := 5
+Facility 16 Ability          := AI Tag 01
+Facility 16 Amount           := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Mining Colony
+Num Queue Entries            := 17
+Facility 1 Ability           := Supply Generation
+Facility 1 Amount            := 1
+Facility 2 Ability           := Spaceport
+Facility 2 Amount            := 1
+Facility 3 Ability           := AI Tag 01
+Facility 3 Amount            := 3
+Facility 4 Ability           := Space Yard
+Facility 4 Amount            := 1
+Facility 5 Ability           := Planet - Change Atmosphere
+Facility 5 Amount            := 1
+Facility 6 Ability           := AI Tag 06
+Facility 6 Amount            := 1
+Facility 7 Ability           := Resource Gen Modifier System - Minerals
+Facility 7 Amount            := 1
+Facility 8 Ability           := Resource Gen Modifier Planet - Minerals
+Facility 8 Amount            := 1
+Facility 9 Ability           := Planet Value Change - System
+Facility 9 Amount            := 1
+Facility 10 Ability           := AI Tag 01
+Facility 10 Amount            := 5
+Facility 11 Ability          := Cargo Storage
+Facility 11 Amount           := 1
+Facility 12 Ability          := AI Tag 05
+Facility 12 Amount           := 2
+Facility 13 Ability          := Plague Prevention - System
+Facility 13 Amount           := 1
+Facility 14 Ability          := AI Tag 01
+Facility 14 Amount           := 8
+Facility 15 Ability          := Planet - Change Conditions
+Facility 15 Amount           := 1
+Facility 16 Ability          := AI Tag 05
+Facility 16 Amount           := 3
+Facility 17 Ability          := AI Tag 01
+Facility 17 Amount           := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Farming Colony
+Num Queue Entries            := 17
+Facility 1 Ability           := Supply Generation
+Facility 1 Amount            := 1
+Facility 2 Ability           := Spaceport
+Facility 2 Amount            := 1
+Facility 3 Ability           := AI Tag 02
+Facility 3 Amount            := 2
+Facility 4 Ability           := Space Yard
+Facility 4 Amount            := 1
+Facility 5 Ability           := Planet - Change Atmosphere
+Facility 5 Amount            := 1
+Facility 6 Ability           := AI Tag 06
+Facility 6 Amount            := 1
+Facility 7 Ability           := Planet Value Change - System
+Facility 7 Amount            := 1
+Facility 8 Ability           := Cargo Storage
+Facility 8 Amount            := 1
+Facility 9 Ability           := AI Tag 05
+Facility 9 Amount            := 2
+Facility 10 Ability           := AI Tag 02
+Facility 10 Amount            := 3
+Facility 11 Ability          := Resource Gen Modifier System - Organics
+Facility 11 Amount           := 1
+Facility 12 Ability          := Resource Gen Modifier Planet - Organics
+Facility 12 Amount           := 1
+Facility 13 Ability          := Plague Prevention - System
+Facility 13 Amount           := 1
+Facility 14 Ability          := AI Tag 02
+Facility 14 Amount           := 5
+Facility 15 Ability          := AI Tag 04
+Facility 15 Amount           := 100
+Facility 16 Ability          := Point Generation - Intelligence
+Facility 16 Amount           := 100
+Facility 17 Ability          := AI Tag 02
+Facility 17 Amount           := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Refining Colony
+Num Queue Entries            := 17
+Facility 1 Ability           := Supply Generation
+Facility 1 Amount            := 1
+Facility 2 Ability           := Spaceport
+Facility 2 Amount            := 1
+Facility 3 Ability           := AI Tag 03
+Facility 3 Amount            := 3
+Facility 4 Ability           := Space Yard
+Facility 4 Amount            := 1
+Facility 5 Ability           := Planet - Change Atmosphere
+Facility 5 Amount            := 1
+Facility 6 Ability           := AI Tag 06
+Facility 6 Amount            := 1
+Facility 7 Ability           := Planet Value Change - System
+Facility 7 Amount            := 1
+Facility 8 Ability           := Cargo Storage
+Facility 8 Amount            := 1
+Facility 9 Ability           := Resource Gen Modifier System - Radioactives
+Facility 9 Amount            := 1
+Facility 10 Ability           := Resource Gen Modifier Planet - Radioactives
+Facility 10 Amount            := 1
+Facility 11 Ability          := AI Tag 03
+Facility 11 Amount           := 5
+Facility 12 Ability          := Planet - Change Conditions
+Facility 12 Amount           := 1
+Facility 13 Ability          := AI Tag 05
+Facility 13 Amount           := 2
+Facility 14 Ability          := Plague Prevention - System
+Facility 14 Amount           := 1
+Facility 15 Ability          := AI Tag 03
+Facility 15 Amount           := 8
+Facility 16 Ability          := AI Tag 05
+Facility 16 Amount           := 3
+Facility 17 Ability          := AI Tag 03
+Facility 17 Amount           := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Research Compound
+Num Queue Entries            := 10
+Facility 1 Ability           := Supply Generation
+Facility 1 Amount            := 1
+Facility 2 Ability           := Spaceport
+Facility 2 Amount            := 1
+Facility 3 Ability           := AI Tag 04
+Facility 3 Amount            := 5
+Facility 4 Ability           := Cargo Storage
+Facility 4 Amount            := 1
+Facility 5 Ability           := Space Yard
+Facility 5 Amount            := 1
+Facility 6 Ability           := Planet - Change Atmosphere
+Facility 6 Amount            := 1
+Facility 7 Ability           := AI Tag 06
+Facility 7 Amount            := 1
+Facility 8 Ability           := Plague Prevention - System
+Facility 8 Amount            := 1
+Facility 9 Ability           := AI Tag 04
+Facility 9 Amount            := 100
+Facility 10 Ability           := Point Generation - Intelligence
+Facility 10 Amount            := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Intelligence Compound
+Num Queue Entries            := 11
+Facility 1 Ability           := Supply Generation
+Facility 1 Amount            := 1
+Facility 2 Ability           := Spaceport
+Facility 2 Amount            := 1
+Facility 3 Ability           := Point Generation - Intelligence
+Facility 3 Amount            := 4
+Facility 4 Ability           := Cargo Storage
+Facility 4 Amount            := 1
+Facility 5 Ability           := Space Yard
+Facility 5 Amount            := 1
+Facility 6 Ability           := Planet - Change Atmosphere
+Facility 6 Amount            := 1
+Facility 7 Ability           := AI Tag 06
+Facility 7 Amount            := 1
+Facility 8 Ability           := Point Generation - Intelligence
+Facility 8 Amount            := 6
+Facility 9 Ability           := AI Tag 05
+Facility 9 Amount            := 4
+Facility 10 Ability           := Point Generation - Intelligence
+Facility 10 Amount            := 100
+Facility 11 Ability          := AI Tag 04
+Facility 11 Amount           := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Resupply Base
+Num Queue Entries            := 10
+Facility 1 Ability           := Supply Generation
+Facility 1 Amount            := 1
+Facility 2 Ability           := Cargo Storage
+Facility 2 Amount            := 1
+Facility 3 Ability           := Space Yard
+Facility 3 Amount            := 1
+Facility 4 Ability           := Planet - Change Atmosphere
+Facility 4 Amount            := 1
+Facility 5 Ability           := AI Tag 06
+Facility 5 Amount            := 1
+Facility 6 Ability           := AI Tag 05
+Facility 6 Amount            := 2
+Facility 7 Ability           := Plague Prevention - System
+Facility 7 Amount            := 1
+Facility 8 Ability           := Spaceport
+Facility 8 Amount            := 1
+Facility 9 Ability           := AI Tag 04
+Facility 9 Amount            := 100
+Facility 10 Ability           := Point Generation - Intelligence
+Facility 10 Amount            := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Construction Yard
+Num Queue Entries            := 12
+Facility 1 Ability           := Space Yard
+Facility 1 Amount            := 1
+Facility 2 Ability           := Supply Generation
+Facility 2 Amount            := 1
+Facility 3 Ability           := AI Tag 06
+Facility 3 Amount            := 1
+Facility 4 Ability           := Cargo Storage
+Facility 4 Amount            := 1
+Facility 5 Ability           := Planet - Change Atmosphere
+Facility 5 Amount            := 1
+Facility 6 Ability           := AI Tag 05
+Facility 6 Amount            := 2
+Facility 7 Ability           := Spaceport
+Facility 7 Amount            := 1
+Facility 8 Ability           := AI Tag 04
+Facility 8 Amount            := 3
+Facility 9 Ability           := Cargo Storage
+Facility 9 Amount            := 2
+Facility 10 Ability           := Plague Prevention - System
+Facility 10 Amount            := 1
+Facility 11 Ability          := AI Tag 04
+Facility 11 Amount           := 100
+Facility 12 Ability          := Point Generation - Intelligence
+Facility 12 Amount           := 100
+
+AI State                     := Exploration, Infrastructure, Prepare for Attack, Attack, Secure Holdings After Attack, Incursion, Prepare for Defense, Defend (Short Term), Defend (Long Term), Not Connected
+Construction Queue Type      := Military Installation
+Num Queue Entries            := 11
+Facility 1 Ability           := Space Yard
+Facility 1 Amount            := 1
+Facility 2 Ability           := Supply Generation
+Facility 2 Amount            := 1
+Facility 3 Ability           := AI Tag 06
+Facility 3 Amount            := 1
+Facility 4 Ability           := Planet - Change Atmosphere
+Facility 4 Amount            := 1
+Facility 5 Ability           := Cargo Storage
+Facility 5 Amount            := 1
+Facility 6 Ability           := Plague Prevention - System
+Facility 6 Amount            := 1
+Facility 7 Ability           := Spaceport
+Facility 7 Amount            := 1
+Facility 8 Ability           := Point Generation - Intelligence
+Facility 8 Amount            := 3
+Facility 9 Ability           := Cargo Storage
+Facility 9 Amount            := 2
+Facility 10 Ability           := Point Generation - Intelligence
+Facility 10 Amount            := 100
+Facility 11 Ability          := AI Tag 04
+Facility 11 Amount           := 100
+
+=======================================================================================
+*END*
+=======================================================================================

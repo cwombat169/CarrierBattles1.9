@@ -1,0 +1,54 @@
+=======================================================================================
+DEFAULT DESIGN TYPES DATA FILE
+=======================================================================================
+
+Maximum Default Design Types Allowed = 255
+
+These are the default starting Design Types for every player.
+
+Name:
+  The short name of the design type.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                 := Colony Ship
+
+Name                 := Assault Carrier
+
+Name                 := Defense Carrier
+
+Name                 := Bombardment Ship
+
+Name                 := Assault Ship
+
+Name                 := Point Defense Ship
+
+Name                 := Support Ship
+
+Name                 := Construction/Repair Ship
+
+Name                 := Defense Base
+
+Name                 := Supply/Repair Base
+
+Name                 := Pop. Transport
+
+Name                 := Troop Transport
+
+Name                 := Space Superiority
+
+Name                 := Interceptor
+
+Name                 := Heavy Bomber
+
+Name                 := Guard Troop
+
+Name                 := Assault Troop
+
+Name                 := Elite Troop
+
+=======================================================================================
+*END*
+=======================================================================================

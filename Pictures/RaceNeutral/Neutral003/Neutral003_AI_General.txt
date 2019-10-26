@@ -1,0 +1,74 @@
+=======================================================================================
+AI DATA FILE - Netural
+=======================================================================================
+
+Demeanor:
+  Psychotic, Violent, Aggressive, Impulsive, Neutral, Friendly, 
+  Honorable, Serene
+
+Culture:
+  Neutral, Berzerkers, Warriors, Traders, Politicians, Artisans, 
+  Scientists, Workers, Schemers, Zealots, Engineers, Merchants, 
+  Renegades, Xenophobes
+
+Planet Type:
+  Rock, Ice, Gas Giant
+
+Atmosphere:
+  None, Methane, Oxygen, Hydrogen, Carbon Dioxide
+
+Characteristics:
+  Physical Strength, Intelligence, Cunning, Environmental Resistance,
+  Reproduction, Happiness, Aggressiveness, Defensiveness, Political Savvy,
+  Mining Aptitude, Farming Aptitude, Refining Aptitude, Construction Aptitude,
+  Repair Aptitude, Maintenance Aptitude
+
+Adv Traits:
+  Advanced Power Conservation, Mechanoids, Lucky, Natural Merchants, 
+  Propulsion Experts, Ancient Race, Advanced Storage Techniques, 
+  Hardy Spacefarrers, Psychic, Deeply Religious, Temporal Knowledge, 
+  Crystallurgy, Emotionless
+
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                                     := Kithra Consortium
+Description                              := A warlike race formed into feudal states. 
+Empire Name                              := Kithra
+Empire Type                              := Consortium
+Emperor Name                             := Wentarken
+Emperor Title                            := Lord
+Biological Description                   := The Kithra are a semi-humanoid species that have 3 arms, and 3 legs. Their bodies contain an abundance or non-organic elements which lends them their emerald green hue. Their average lifespan is approximately 160 years.
+Society Description                      := The Kithra are a low-technology people which have just achieved space flight technology. Their society is a grouping of feudal states ruled by the lord of the strongest state. Because of the constant in-fighting in their society, they have made very few technological advances. The technology or passing through warp points still elludes them. 
+General History Description              := The Kithra have a long history of warfare over their entire planet. Their home world is scarred by massive craters from their 3 past nuclear wars. That they have achieved space flight at all is a testament to their current leader Lord Wentarken who rules with an iron hand. 
+Demeanor                                 := Violent
+Culture                                  := Neutral
+Happiness Type                           := Peaceful
+Planet Type                              := Rock
+Atmosphere                               := Carbon Dioxide
+Design Name File                         := Alaska.txt
+Race Opt 1 Num Characteristics           := 0
+Race Opt 1 Num Advanced Traits           := 4
+Race Opt 1 Adv Trait 1                   := SpaceFaring Race
+Race Opt 1 Adv Trait 2                   := AI Race
+Race Opt 1 Adv Trait 3                   := Rock Natives
+Race Opt 1 Adv Trait 4                   := Impersonal Society
+Race Opt 2 Num Characteristics           := 0
+Race Opt 2 Num Advanced Traits           := 4
+Race Opt 2 Adv Trait 1                   := SpaceFaring Race
+Race Opt 2 Adv Trait 2                   := AI Race
+Race Opt 2 Adv Trait 3                   := Rock Natives
+Race Opt 2 Adv Trait 4                   := Impersonal Society
+Race Opt 3 Num Characteristics           := 0
+Race Opt 3 Num Advanced Traits           := 4
+Race Opt 3 Adv Trait 1                   := SpaceFaring Race
+Race Opt 3 Adv Trait 2                   := AI Race
+Race Opt 3 Adv Trait 3                   := Rock Natives
+Race Opt 3 Adv Trait 4                   := Impersonal Society
+
+=======================================================================================
+*END*
+=======================================================================================
+

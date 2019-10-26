@@ -1,0 +1,1235 @@
+=======================================================================================
+TECH AREA DATA FILE
+=======================================================================================
+
+Name: 
+  Name of the technology
+
+Group:
+  The group name this technology will be under. Any group name can be used.
+
+Description:
+  Description of the technology.
+
+Maximum Level:
+  The maximum level of this tech area that can be achieved.
+
+Level Cost:
+  The cost to increase one level in this tech area. The cost increases by
+  the game setup factor as the levels get higher.
+
+Start Level:
+  The level at which the player starts the game.
+  The 3 colonization tech areas are a special case which the game will set
+  higher based on your racial traits.
+
+Raise Level:
+  If a medium level of technology is chosen in the game setup, then this level
+  is the starting level for each player (if the Start Level is higher than this
+  value, the Start Level is used).
+
+Racial Area:
+  This is a user-defined number which is connected to the Racial Traits. Some
+  Racial Traits allow for certain tech areas to be available. If this number
+  is greater than zero, then this technology area will only be shown to the
+  player if they have the racial trait with the corresponding Racial Area id.
+  Current Values are:
+    1 - Psychic
+    2 - Deeply Religious
+    3 - Temporal Knowledge
+    4 - Crystallurgy
+    5 - Organic Manipulation
+
+Unique Area:
+  This is a user-defined number which is connected to certain abilities such
+  as Ancient Ruins Unique. Some abilities will cause a unique tech to become
+  available. If this number is greater than zero, then this technology area 
+  will only be shown to the player if they have the attained\activated the
+  ability with the corresponding Unique Area id.
+
+Can Be Removed:
+  Whether this tech area can be un-selected for use in the game. Be careful
+  that you do not allow a required tech to be removed from the game. 
+
+Number of Tech Req:
+  This is the number of other tech areas that are required to be completed 
+  before this one will be displayed. 
+
+Tech Area Req #, Tech Level Req #:
+  The tech area and level required.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Name                  := Rock Planet Colonization
+Group                 := Applied Science
+Description           := Creation of colonies which can survive on rock based planets.
+Maximum Level         := 2
+Level Cost            := 500000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Rock Natives
+Group                 := Natural Abilities
+Description           := This race was spawned on a Rock planet.
+Maximum Level         := 1
+Level Cost            := 0
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 1
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Ice Planet Colonization
+Group                 := Applied Science
+Description           := Creation of colonies which can survive on ice based planets.
+Maximum Level         := 2
+Level Cost            := 500000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Ice Natives
+Group                 := Natural Abilities
+Description           := This race was spawned on an Ice planet.
+Maximum Level         := 1
+Level Cost            := 0
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 2
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Gas Giant Colonization
+Group                 := Applied Science
+Description           := Creation of colonies which can survive within gas giant planets.
+Maximum Level         := 2
+Level Cost            := 500000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Gas Giant Natives
+Group                 := Natural Abilities
+Description           := This race was spawned on a Gas Giant planet.
+Maximum Level         := 1
+Level Cost            := 0
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 3
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Base Construction
+Group                 := Applied Science
+Description           := The construction of fixed orbital and deep space installations.
+Maximum Level         := 4
+Level Cost            := 100000
+Start Level           := 0
+Raise Level           := 2
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ship Construction
+Group                 := Applied Science
+Description           := The construction of starships and their support components.
+Maximum Level         := 6
+Level Cost            := 100000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Fighters
+Group                 := Applied Science
+Description           := The construction of fighter vehicles and their support components.
+Maximum Level         := 5
+Level Cost            := 100000
+Start Level           := 1
+Raise Level           := 2
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Space Yards
+Group                 := Applied Science
+Description           := Technology to construct Space Yards, which in turn construct all the structures and vehicles for an empire.
+Maximum Level         := 6
+Level Cost            := 100000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Ship Repair
+Group                 := Applied Science
+Description           := Technology to maintain and repair vehicles in space.
+Maximum Level         := 10
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Cargo
+Group                 := Applied Science
+Description           := The ability to store and transport cargo through space.
+Maximum Level         := 5
+Level Cost            := 100000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Resupply
+Group                 := Applied Science
+Description           := Equipment necessary to resupply ship in space.
+Maximum Level         := 6
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Capital Ship Propulsion
+Group                 := Applied Science
+Description           := The design and use of reaction engines to propel a starship through space.
+Maximum Level         := 10
+Level Cost            := 25000
+Start Level           := 1
+Raise Level           := 5
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Fighter Propulsion
+Group                 := Applied Science
+Description           := The design and use of engines optimized for fighters in combat.
+Maximum Level         := 9
+Level Cost            := 25000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 1
+Tech Area Req 1       := Fighters
+Tech Level Req 1      := 1
+
+Name                  := Armor
+Group                 := Applied Science
+Description           := The use of ultra-strong materials to reduce damage.
+Maximum Level         := 10
+Level Cost            := 25000
+Start Level           := 2
+Raise Level           := 5
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Shields
+Group                 := Applied Science
+Description           := The development and use of external damage reducing barriers.
+Maximum Level         := 10
+Level Cost            := 50000
+Start Level           := 0
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Minerals Extraction
+Group                 := Applied Science
+Description           := The ability to extract minerals from a planet.
+Maximum Level         := 9
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Organics Extraction
+Group                 := Applied Science
+Description           := The ability to grow and cultivate organic materials on a planet.
+Maximum Level         := 9
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Radioactives Extraction
+Group                 := Applied Science
+Description           := The ability to locate and refine radioactive materials within a planet.
+Maximum Level         := 9
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Automation
+Group                 := Applied Science
+Description           := The development of independent and self-guided electromechanical systems.
+Maximum Level         := 6
+Level Cost            := 100000
+Start Level           := 0
+Raise Level           := 2
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Applied Research
+Group                 := Applied Science
+Description           := The capability of an empire to research new technologies.
+Maximum Level         := 3
+Level Cost            := 100000
+Start Level           := 1
+Raise Level           := 2
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Applied Intelligence
+Group                 := Applied Science
+Description           := The capability of an empire to gather and perform intelligence actions.
+Maximum Level         := 4
+Level Cost            := 100000
+Start Level           := 0
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Saboteurs
+Group                 := Tech Filter
+Description           := Game setup trigger which enables most sabotage based intel projects.
+Maximum Level         := 1
+Level Cost            := 100000
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Planetary Bombardment
+Group                 := Tech Filter
+Description           := Game setup trigger which enables planetary bombardment missiles.
+Maximum Level         := 1
+Level Cost            := 100000
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Biological Warfare
+Group                 := Weapons Science
+Description           := The development and deployment of biological weapons.
+Maximum Level         := 5
+Level Cost            := 100000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Troops
+Group                 := Applied Science
+Description           := The construction of ground troops used to capture planets.
+Maximum Level         := 6
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Troop Weapons
+Group                 := Weapons Science
+Description           := The construction of ground troops used to capture planets.
+Maximum Level         := 6
+Level Cost            := 50000
+Start Level           := 0
+Raise Level           := 2
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 1
+Tech Area Req 1       := Troops
+Tech Level Req 1      := 1
+
+Name                  := Beam Weapons
+Group                 := Weapons Science
+Description           := The construction of coherent electromagnetic beam weapons.
+Maximum Level         := 10
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Projectile Weapons
+Group                 := Weapons Science
+Description           := The construction of weapons which launch small shells at high speeds.
+Maximum Level         := 10
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Plasma Weapons
+Group                 := Weapons Science
+Description           := The construction of weapons which fire packets of high energy plasma.
+Maximum Level         := 10
+Level Cost            := 50000
+Start Level           := 0
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Torpedo Weapons
+Group                 := Weapons Science
+Description           := The construction of self-propelled explosive warheads.
+Maximum Level         := 10
+Level Cost            := 50000
+Start Level           := 0
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Weapon Utilization
+Group                 := Weapons Science
+Description           := The organization of weapons systems and their system requirements.
+Maximum Level         := 5
+Level Cost            := 50000
+Start Level           := 0
+Raise Level           := 2
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Missile ECM
+Group                 := Weapons Science
+Description           := The refinement of stealth and other damage reducing technologies.
+Maximum Level         := 3
+Level Cost            := 250000
+Start Level           := 0
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Missile Targetting
+Group                 := Weapons Science
+Description           := The refinement of target tracking and attack to improve the damage dealt.
+Maximum Level         := 3
+Level Cost            := 250000
+Start Level           := 0
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Missile Manufacturing
+Group                 := Weapons Science
+Description           := The refinement of industry to make missiles cheaper and consume less supply.
+Maximum Level         := 9
+Level Cost            := 75000
+Start Level           := 0
+Raise Level           := 3
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Medical Technology
+Group                 := Applied Science
+Description           := The science of healing and protecting the physical body.
+Maximum Level         := 5
+Level Cost            := 50000
+Start Level           := 1
+Raise Level           := 2
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Military Training
+Group                 := Applied Science
+Description           := The art and science of teaching soldiers how to fight.
+Maximum Level         := 6
+Level Cost            := 75000
+Start Level           := 0
+Raise Level           := 1
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := AI Race
+Group                 := Applied Science
+Description           := This race is an AI
+Maximum Level         := 2
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 4
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Good Samaritans
+Group                 := Applied Science
+Description           := This race can use helpful intel projects
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 5
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Firearms Enthusiasts
+Group                 := Natural Abilities
+Description           := Keen knowledge of weapon systems allows bigger and better weapons.
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 10
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Gun Nuts
+Group                 := Natural Abilities
+Description           := Only the biggest and deadliest will satisfy you.
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 11
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Natural Builders
+Group                 := Natural Abilities
+Description           := Construction is a basic habit, and everyone pitches in to help boost build rates.
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 9
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Historically Curious
+Group                 := Natural Abilities
+Description           := This race is curious enough to investigate ancient ruins, but has no particular skill at understanding them.
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 6
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Ancient Scavengers
+Group                 := Natural Abilities
+Description           := This race is highly skilled at scavenging technology, and can make better use of ancient devices than most races.
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 7
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Xenoarchaeologists
+Group                 := Natural Abilities
+Description           := This race has thought processes similar to that of the ancients, and can easily glean knowledge from ancient ruins.
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 1
+Raise Level           := 1
+Racial Area           := 8
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 0
+
+Name                  := Ancient Air Freshener
+Group                 := Ancient Artifacts
+Description           := A small tree shaped object, which smells nice when you hold it.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 1
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Air Freshener (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Air Freshener.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Air Freshener
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Air Freshener (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Air Freshener.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Air Freshener
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Air Freshener (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Air Freshener.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Air Freshener
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Monocle
+Group                 := Ancient Artifacts
+Description           := A transparent disk with a fancy chain attached to it.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 2
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Monocle (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Monocle.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Monocle
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Monocle (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Monocle.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Monocle
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Monocle (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Monocle.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Monocle
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Trenchcoat
+Group                 := Ancient Artifacts
+Description           := An inconspicuous garment of unknown material with seven openings.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 3
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Trenchcoat (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Trenchcoat.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Trenchcoat
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Trenchcoat (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Trenchcoat.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Trenchcoat
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Trenchcoat (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Trenchcoat.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Trenchcoat
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Sunscreen
+Group                 := Ancient Artifacts
+Description           := A klein bottle labelled with a stylized picture of a star and a shaded creature.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 4
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Sunscreen (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Sunscreen.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Sunscreen
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Sunscreen (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Sunscreen.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Sunscreen
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Sunscreen (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Sunscreen.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Sunscreen
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Frisbee
+Group                 := Ancient Artifacts
+Description           := A brightly coloured, disk shaped object which hovers when spun rapidly.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 5
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Frisbee (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Frisbee.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Frisbee
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Frisbee (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Frisbee.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Frisbee
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Frisbee (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Frisbee.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Frisbee
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Flower Pot
+Group                 := Ancient Artifacts
+Description           := A brown vessel containing soil and a flower in bloom.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 6
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Flower Pot (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Flower Pot.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Flower Pot
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Flower Pot (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Flower Pot.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Flower Pot
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Flower Pot (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Flower Pot.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Flower Pot
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Colander
+Group                 := Ancient Artifacts
+Description           := A bowl shaped object with many holes in the bottom.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 7
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Colander (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Colander.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Colander
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Colander (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Colander.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Colander
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Colander (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Colander.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Colander
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Whiskey
+Group                 := Ancient Artifacts
+Description           := A most potent smelling fluid in a hip flask.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 8
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Whiskey (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Whiskey.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Whiskey
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Whiskey (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Whiskey.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Whiskey
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Whiskey (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Whiskey.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Whiskey
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Teddy Bear
+Group                 := Ancient Artifacts
+Description           := An unbearably cute and fuzzy stuffed animal.
+Maximum Level         := 2
+Level Cost            := 10000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 9
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Teddy Bear (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Teddy Bear.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Teddy Bear
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Teddy Bear (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Teddy Bear.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Teddy Bear
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Teddy Bear (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Teddy Bear.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Teddy Bear
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Ancient Toupee
+Group                 := Ancient Artifacts
+Description           := A one-size-fits-all hairpiece which adapts to the user.
+Maximum Level         := 1
+Level Cost            := 10
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 10
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+Name                  := Ancient Toupee (Curious)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Toupee.
+Maximum Level         := 3
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Toupee
+Tech Level Req 1      := 1
+Tech Area Req 2       := Historically Curious
+Tech Level Req 2      := 1
+
+Name                  := Ancient Toupee (Scavengers)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Toupee.
+Maximum Level         := 2
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Toupee
+Tech Level Req 1      := 1
+Tech Area Req 2       := Ancient Scavengers
+Tech Level Req 2      := 1
+
+Name                  := Ancient Toupee (Xenoarchaeologists)
+Group                 := Ancient Engineering
+Description           := Practical use for the Ancient Toupee.
+Maximum Level         := 1
+Level Cost            := 200000
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 0
+Can Be Removed        := False
+Number of Tech Req    := 2
+Tech Area Req 1       := Ancient Toupee
+Tech Level Req 1      := 1
+Tech Area Req 2       := Xenoarchaeologists
+Tech Level Req 2      := 1
+
+Name                  := Perpetual Motion Machine Blueprints
+Group                 := Ancient Artifacts
+Description           := A fanciful device which dosen't actually work.
+Maximum Level         := 100
+Level Cost            := 1
+Start Level           := 0
+Raise Level           := 0
+Racial Area           := 0
+Unique Area           := 11
+Can Be Removed        := True
+Number of Tech Req    := 0
+
+=======================================================================================
+*END*
+=======================================================================================

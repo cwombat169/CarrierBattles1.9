@@ -1,0 +1,179 @@
+=======================================================================================
+AI POLITICS DATA FILE - Default
+=======================================================================================
+
+This file governs how an empire decides to send messages.
+
+Score Percent:
+  This is the percentage of the target player's score to ours. So 
+  if we have a score of 10000, and they have a score of 15000, this percentage
+  would be 150%. 
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+Score Percent For Demanding Tone                                             := 80	
+Score Percent To Pleading Tone                                               := 120
+Highest Allowed Treaty                                                       := Military Alliance
+Turns Since Last War Before Friendly Treaty                                  := 15
+Accept Treaty Base Anger Level                                               := 30
+Accept Treaty Anger Modifier Per Higher Treaty Level                         := -5
+Accept Treaty Minimum Anger Chance                                           := 5
+Accept Treaty Anger Modifier Per Other Wars                                  := 30
+Accept Treaty Minimum Time From Last Treaty                                  := 10
+Accept Treaty First 50 Turns Modifier                                        := 10
+Accept Treaty Anger Modifier For Percent Stronger Player                     := 150
+Accept Treaty Anger Modifier For Percent Stronger Player Amount              := 50
+Accept Treaty Anger Modifier For Percent Weaker Player                       := 50
+Accept Treaty Anger Modifier For Percent Weaker Player Amount                := -30
+Accept Treaty Score Percent To Accept Subjugation Treaty                     := 1500
+Accept Treaty Score Percent To Accept Protectorate Treaty                    := 1000
+Propose Treaty Percent Chance Per Turn                                       := 15
+Propose Treaty Base Anger Level                                              := 30
+Propose Treaty Anger Modifier Per Other Wars                                 := 30
+Propose Treaty First 50 Turns Modifier                                       := 10
+Propose Treaty Anger Modifier For Percent Stronger Player                    := 200
+Propose Treaty Anger Modifier For Percent Stronger Player Amount             := 50
+Propose Treaty Anger Modifier For Percent Weaker Player                      := 50
+Propose Treaty Anger Modifier For Percent Weaker Player Amount               := -30
+Propose Treaty Type Count                                                    := 4
+Propose Treaty Type 1 Anger Level Below Computed                             := 15
+Propose Treaty Type 1                                                        := Partnership
+Propose Treaty Type 2 Anger Level Below Computed                             := 10
+Propose Treaty Type 2                                                        := Military Alliance
+Propose Treaty Type 3 Anger Level Below Computed                             := 5
+Propose Treaty Type 3                                                        := Trade and Research Alliance
+Propose Treaty Type 4 Anger Level Below Computed                             := 0
+Propose Treaty Type 4                                                        := Trade Alliance
+Break Treaty Base Anger Level                                                := 60
+Break Treaty Anger Modifier Per Other Wars                                   := 30
+Break Treaty Anger Modifier For Percent Stronger Player                      := 200
+Break Treaty Anger Modifier For Percent Stronger Player Amount               := 50
+Break Treaty Anger Modifier For Percent Weaker Player                        := 50
+Break Treaty Anger Modifier For Percent Weaker Player Amount                 := -30
+Declare War Base Anger Level                                                 := 80
+Declare War Anger Modifier Per Other Wars                                    := 15
+Declare War Anger Modifier For Percent Stronger Player                       := 200
+Declare War Anger Modifier For Percent Stronger Player Amount                := 50
+Declare War Anger Modifier For Percent Weaker Player                         := 50
+Declare War Anger Modifier For Percent Weaker Player Amount                  := -30
+Max Anger Level for Accept a Gift                                            := 90
+Max Anger Level for Accept a Tribute                                         := 90
+Score Percent to Send Want a gift                                            := 90
+Will Send To Friend Want a gift                                              := True
+Will Send To Enemy Want a gift                                               := True
+Score Percent to Send Want a tribute                                         := 90
+Will Send To Friend Want a tribute                                           := True
+Will Send To Enemy Want a tribute                                            := True
+Score Percent to Send Demand your surrender                                  := 80
+Will Send To Friend Demand your surrender                                    := True
+Will Send To Enemy Demand your surrender                                     := True
+Score Percent to Send Remove your ships from system                          := 80
+Will Send To Friend Remove your ships from system                            := True
+Will Send To Enemy Remove your ships from system                             := True
+Score Percent to Send Remove your colonies from system                       := 80
+Will Send To Friend Remove your colonies from system                         := True
+Will Send To Enemy Remove your colonies from system                          := True
+Score Percent to Send Leave planet                                           := 80
+Will Send To Friend Leave planet                                             := True
+Will Send To Enemy Leave planet                                              := True
+Score Percent to Send Stop hostile actions against empire                    := 100
+Will Send To Friend Stop hostile actions against empire                      := True
+Will Send To Enemy Stop hostile actions against empire                       := True
+Score Percent to Send Break treaty with empire                               := 90
+Will Send To Friend Break treaty with empire                                 := True
+Will Send To Enemy Break treaty with empire                                  := True
+Score Percent to Send Declare war on empire                                  := 90
+Will Send To Friend Declare war on empire                                    := True
+Will Send To Enemy Declare war on empire                                     := True
+Score Percent to Send Make peace with empire                                 := 90
+Will Send To Friend Make peace with empire                                   := True
+Will Send To Enemy Make peace with empire                                    := True
+Score Percent to Send Support us against another empire                      := 120
+Will Send To Friend Support us against another empire                        := True
+Will Send To Enemy Support us against another empire                         := True
+Score Percent to Send Attack empire in system                                := 90
+Will Send To Friend Attack empire in system                                  := True
+Will Send To Enemy Attack empire in system                                   := True
+Score Percent to Send Attack planet                                          := 90
+Will Send To Friend Attack planet                                            := True
+Will Send To Enemy Attack planet                                             := True
+Score Percent to Send Stop espionage activities                              := 120
+Will Send To Friend Stop espionage activities                                := True
+Will Send To Enemy Stop espionage activities                                 := True
+Score Percent to Send Stop sabotage activities                               := 120
+Will Send To Friend Stop sabotage activities                                 := True
+Will Send To Enemy Stop sabotage activities                                  := True
+Score Percent to Send Stop attacks in system                                 := 90
+Will Send To Friend Stop attacks in system                                   := True
+Will Send To Enemy Stop attacks in system                                    := True
+Score Percent To Accept Want a gift                                          := 150
+Will Accept From Friend Want a gift                                          := True
+Will Accept From Enemy Want a gift                                           := False
+Score Percent To Accept Want a tribute                                       := 150
+Will Accept From Friend Want a tribute                                       := False
+Will Accept From Enemy Want a tribute                                        := True
+Score Percent To Accept Demand your surrender                                := 2000
+Will Accept From Friend Demand your surrender                                := True
+Will Accept From Enemy Demand your surrender                                 := True
+Score Percent To Accept Remove your ships from system                        := 150
+Will Accept From Friend Remove your ships from system                        := True
+Will Accept From Enemy Remove your ships from system                         := True
+Score Percent To Accept Remove your colonies from system                     := 150
+Will Accept From Friend Remove your colonies from system                     := True
+Will Accept From Enemy Remove your colonies from system                      := True
+Score Percent To Accept Leave planet                                         := 150
+Will Accept From Friend Leave planet                                         := True
+Will Accept From Enemy Leave planet                                          := True
+Score Percent To Accept Stop hostile actions against empire                  := 150
+Will Accept From Friend Stop hostile actions against empire                  := True
+Will Accept From Enemy Stop hostile actions against empire                   := False
+Score Percent To Accept Break treaty with empire                             := 150
+Will Accept From Friend Break treaty with empire                             := True
+Will Accept From Enemy Break treaty with empire                              := True
+Score Percent To Accept Declare war on empire                                := 150
+Will Accept From Friend Declare war on empire                                := True
+Will Accept From Enemy Declare war on empire                                 := True
+Score Percent To Accept Make peace with empire                               := 150
+Will Accept From Friend Make peace with empire                               := True
+Will Accept From Enemy Make peace with empire                                := True
+Score Percent To Accept Support us against another empire                    := 150
+Will Accept From Friend Support us against another empire                    := True
+Will Accept From Enemy Support us against another empire                     := False
+Score Percent To Accept Attack empire in system                              := 150
+Will Accept From Friend Attack empire in system                              := True
+Will Accept From Enemy Attack empire in system                               := True
+Score Percent To Accept Attack planet                                        := 150
+Will Accept From Friend Attack planet                                        := True
+Will Accept From Enemy Attack planet                                         := True
+Score Percent To Accept Stop espionage activities                            := 130
+Will Accept From Friend Stop espionage activities                            := True
+Will Accept From Enemy Stop espionage activities                             := False
+Score Percent To Accept Stop sabotage activities                             := 130
+Will Accept From Friend Stop sabotage activities                             := True
+Will Accept From Enemy Stop sabotage activities                              := False
+Score Percent To Accept Stop attacks in system                               := 150
+Will Accept From Friend Stop attacks in system                               := True
+Will Accept From Enemy Stop attacks in system                                := True
+Gift Value Base to Friend                                                    := 20000
+Gift Value Base to Enemy                                                     := 20000
+Tribute Value Base to Friend                                                 := 20000
+Tribute Value Base to Enemy                                                  := 20000
+Gift Value to Friend Per Percentage Greater Score                            := 5000
+Gift Value to Enemy Per Percentage Greater Score                             := 1000
+Tribute Value to Friend Per Percentage Greater Score                         := 5000
+Tribute Value to Enemy Per Percentage Greater Score                          := 1000
+Gift to Friend Max Anger                                                     := 80
+Gift to Enemy Max Anger   	 	   	                             := 80
+Tribute to Friend Max Anger                                                  := 80
+Tribute to Enemy Max Anger                                                   := 80
+Accept Trade From Friend At Percentage Value or Greater of Received          := 90 
+Accept Trade From Enemy At Percentage Value or Greater of Received           := 110 
+
+=======================================================================================
+*END*
+=======================================================================================
+
+
+
