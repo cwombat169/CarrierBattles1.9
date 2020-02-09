@@ -284,19 +284,6 @@ Picture                   := PopulationAngry
 Time Till Completion      := 0
 Num Start Messages        := 0
 
-Type                      := Warp Point - Closed
-Severity                  := High
-Effect Amount             := 1
-Message To                := System
-Num Messages              := 1
-Message Title 1           := 
-Message 1                 := 
-Picture                   := WPClosed
-Time Till Completion      := 5
-Num Start Messages        := 1
-Start Message Title 1     := Warp Point Fluctuation Detected
-Start Message 1           := [%WarpPointName] is fluctuating from gravitational shear forces. Our scientists conclude it will collapse within 0.5 years. 
-
 Type                      := Ship - Damage
 Severity                  := Catastrophic
 Effect Amount             := 50000

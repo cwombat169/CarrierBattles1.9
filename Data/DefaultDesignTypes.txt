@@ -13,11 +13,15 @@ Name:
 *BEGIN*
 =======================================================================================
 
+Name                 := RetroSeries Design
+
 Name                 := Colony Ship
 
 Name                 := Assault Carrier
 
 Name                 := Defense Carrier
+
+Name                 := Exploration Ship
 
 Name                 := Bombardment Ship
 
@@ -29,9 +33,17 @@ Name                 := Support Ship
 
 Name                 := Construction/Repair Ship
 
+Name                 := Defense Satellite
+
+Name                 := Recon Satellite
+
+Name                 := Construction/Repair Base
+
 Name                 := Defense Base
 
 Name                 := Supply/Repair Base
+
+Name                 := Launch Base
 
 Name                 := Pop. Transport
 
@@ -41,13 +53,15 @@ Name                 := Space Superiority
 
 Name                 := Interceptor
 
-Name                 := Heavy Bomber
+Name                 := Bomber
 
 Name                 := Guard Troop
 
 Name                 := Assault Troop
 
 Name                 := Elite Troop
+
+Name                 := Mechanized Troop
 
 =======================================================================================
 *END*

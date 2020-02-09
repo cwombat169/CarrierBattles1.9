@@ -1,8 +1,39 @@
-Psychotic
-Violent
 Aggressive
+Arrogant
+Crazy
+Crusader
+Cunning
+Dim
+Elusive
+Friendly
+Grudge-Keepers
+Honorable
+Ignorant
 Impulsive
 Neutral
-Friendly
-Honorable
+Peace Dealer
+Peace Keeper
+Peace Maker
+Peace Monger
+Polite
+Private
+Psychotic
+Rude
+Saber Rattlers
+Savvy
+Secretive
 Serene
+Shy
+Sleezy
+Slow
+Smart
+Snobs
+Stupid
+Trouble Makers
+Two-Faced
+Vain
+Valiant
+Venegful
+Violent
+War Manipulator
+War Monger

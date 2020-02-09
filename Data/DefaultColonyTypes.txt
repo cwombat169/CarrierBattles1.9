@@ -23,9 +23,17 @@ Name                 := Resupply Base
 
 Name                 := Research Compound
 
+Name                 := Storage Compound
+
 Name                 := Intelligence Compound
 
 Name                 := Construction Yard
+
+Name                 := Lunar Base
+
+Name                 := System Capital
+
+Name                 := Reproduction Compound
 
 =======================================================================================
 *END*
