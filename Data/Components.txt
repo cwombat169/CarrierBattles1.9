@@ -916,7 +916,7 @@ Weapon Type           := None
 
 Name                  := Deep Space Yard I
 Description           := Stripped down, self-contained factory which can construct objects in space.
-Pic Num               := 3141
+Pic Num               := 2357
 Tonnage Space Taken   := 100
 Tonnage Structure     := 100
 Cost Minerals         := 5000
@@ -984,7 +984,7 @@ Weapon Type           := None
 
 Name                  := Deep Space Yard II
 Description           := Stripped down, self-contained factory which can construct objects in space.
-Pic Num               := 3141
+Pic Num               := 2357
 Tonnage Space Taken   := 100
 Tonnage Structure     := 100
 Cost Minerals         := 5000
@@ -1052,7 +1052,7 @@ Weapon Type           := None
 
 Name                  := Deep Space Yard III
 Description           := Stripped down, self-contained factory which can construct objects in space.
-Pic Num               := 3141
+Pic Num               := 2357
 Tonnage Space Taken   := 100
 Tonnage Structure     := 100
 Cost Minerals         := 5000
@@ -2027,7 +2027,7 @@ Weapon Type           := None
 
 Name                  := Radioisotope Drive Reactor
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 832
+Pic Num               := 2389
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2060,7 +2060,7 @@ Weapon Type           := None
 
 Name                  := Radioisotope Drive Reactor X
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 832
+Pic Num               := 2389
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2097,7 +2097,7 @@ Weapon Type           := None
 
 Name                  := Fission Drive Reactor
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 835
+Pic Num               := 2390
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2130,7 +2130,7 @@ Weapon Type           := None
 
 Name                  := Fission Drive Reactor X
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 835
+Pic Num               := 2390
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2167,7 +2167,7 @@ Weapon Type           := None
 
 Name                  := Fusion Drive Reactor
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 837
+Pic Num               := 2393
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2200,7 +2200,7 @@ Weapon Type           := None
 
 Name                  := Fusion Drive Reactor X
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 837
+Pic Num               := 2393
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2237,7 +2237,7 @@ Weapon Type           := None
 
 Name                  := Anti-Matter Drive Reactor
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 838
+Pic Num               := 2394
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2270,7 +2270,7 @@ Weapon Type           := None
 
 Name                  := Anti-Matter Drive Reactor X
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 838
+Pic Num               := 2394
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2307,7 +2307,7 @@ Weapon Type           := None
 
 Name                  := Zero Point Drive Reactor
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 2968
+Pic Num               := 2970
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2340,7 +2340,7 @@ Weapon Type           := None
 
 Name                  := Zero Point Drive Reactor X
 Description           := Dedicated source of power and reaction mass for the engine ports on a vehicle, drastically increasing the potential speed of a ship.
-Pic Num               := 2968
+Pic Num               := 2970
 Tonnage Space Taken   := 5
 Tonnage Structure     := 5
 Cost Minerals         := 100
@@ -2721,7 +2721,7 @@ Weapon Type           := None
 
 Name                  := 20cm Ceramic Composite Armor Plating
 Description           := Thick sheets of durable material designed to reduce damage sustained in combat.
-Pic Num               := 723
+Pic Num               := 31663
 Tonnage Space Taken   := 1
 Tonnage Structure     := 25
 Cost Minerals         := 20
@@ -2846,7 +2846,7 @@ Weapon Type           := None
 
 Name                  := 40cm Ceramic Composite Armor Plating
 Description           := Thick sheets of durable material designed to reduce damage sustained in combat.
-Pic Num               := 723
+Pic Num               := 31663
 Tonnage Space Taken   := 2
 Tonnage Structure     := 45
 Cost Minerals         := 40
@@ -2971,7 +2971,7 @@ Weapon Type           := None
 
 Name                  := 60cm Ceramic Composite Armor Plating
 Description           := Thick sheets of durable material designed to reduce damage sustained in combat.
-Pic Num               := 723
+Pic Num               := 31663
 Tonnage Space Taken   := 3
 Tonnage Structure     := 64
 Cost Minerals         := 60
@@ -4777,7 +4777,7 @@ Weapon Type           := None
 
 Name                  := Fighter Bay
 Description           := Area on a starship where fighters are stored for launch.
-Pic Num               := 58
+Pic Num               := 3009
 Tonnage Space Taken   := 16
 Tonnage Structure     := 16
 Cost Minerals         := 600
@@ -5504,7 +5504,7 @@ Weapon Type           := None
 
 Name                  := Fighter Armor II
 Description           := Ablative armor which greatly improves durability.
-Pic Num               := 723
+Pic Num               := 31663
 Tonnage Space Taken   := 1
 Tonnage Structure     := 5
 Cost Minerals         := 12
@@ -47057,7 +47057,7 @@ Weapon Seeker Dmg Res := 62
 
 Name                  := Planetary Bombardment Missiles I
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47099,7 +47099,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles II
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47141,7 +47141,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles III
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47183,7 +47183,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47225,7 +47225,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47267,7 +47267,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47309,7 +47309,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47351,7 +47351,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47393,7 +47393,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47435,7 +47435,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47477,7 +47477,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles II
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47519,7 +47519,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles III
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47561,7 +47561,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47603,7 +47603,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47645,7 +47645,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47687,7 +47687,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47729,7 +47729,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47771,7 +47771,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47813,7 +47813,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47855,7 +47855,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47897,7 +47897,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles III
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47939,7 +47939,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -47981,7 +47981,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48023,7 +48023,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48065,7 +48065,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48107,7 +48107,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48149,7 +48149,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48191,7 +48191,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48233,7 +48233,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48275,7 +48275,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48317,7 +48317,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48359,7 +48359,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48401,7 +48401,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48443,7 +48443,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48485,7 +48485,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48527,7 +48527,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48569,7 +48569,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48611,7 +48611,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48653,7 +48653,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48695,7 +48695,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48737,7 +48737,7 @@ Weapon Seeker Dmg Res := 250
 
 Name                  := Planetary Bombardment Missiles II
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48779,7 +48779,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles III
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48821,7 +48821,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48863,7 +48863,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48905,7 +48905,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48947,7 +48947,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -48989,7 +48989,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49031,7 +49031,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49073,7 +49073,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49115,7 +49115,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49157,7 +49157,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles III
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49199,7 +49199,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49241,7 +49241,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49283,7 +49283,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49325,7 +49325,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49367,7 +49367,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49409,7 +49409,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49451,7 +49451,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49493,7 +49493,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49535,7 +49535,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49577,7 +49577,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49619,7 +49619,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49661,7 +49661,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49703,7 +49703,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49745,7 +49745,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49787,7 +49787,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49829,7 +49829,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49871,7 +49871,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49913,7 +49913,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49955,7 +49955,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -49997,7 +49997,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50039,7 +50039,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50081,7 +50081,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50123,7 +50123,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50165,7 +50165,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50207,7 +50207,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50249,7 +50249,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50291,7 +50291,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50333,7 +50333,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50375,7 +50375,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles XIV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50417,7 +50417,7 @@ Weapon Seeker Dmg Res := 900
 
 Name                  := Planetary Bombardment Missiles III
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50459,7 +50459,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50501,7 +50501,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50543,7 +50543,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50585,7 +50585,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50627,7 +50627,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50669,7 +50669,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50711,7 +50711,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50753,7 +50753,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50795,7 +50795,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50837,7 +50837,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50879,7 +50879,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50921,7 +50921,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -50963,7 +50963,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51005,7 +51005,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51047,7 +51047,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51089,7 +51089,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51131,7 +51131,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51173,7 +51173,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51215,7 +51215,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51257,7 +51257,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51299,7 +51299,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51341,7 +51341,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51383,7 +51383,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51425,7 +51425,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51467,7 +51467,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51509,7 +51509,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51551,7 +51551,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51593,7 +51593,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51635,7 +51635,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XIV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51677,7 +51677,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51719,7 +51719,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51761,7 +51761,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51803,7 +51803,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51845,7 +51845,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51887,7 +51887,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51929,7 +51929,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -51971,7 +51971,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52013,7 +52013,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XIV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52055,7 +52055,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles XV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52097,7 +52097,7 @@ Weapon Seeker Dmg Res := 1080
 
 Name                  := Planetary Bombardment Missiles IV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52139,7 +52139,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52181,7 +52181,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52223,7 +52223,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52265,7 +52265,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52307,7 +52307,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52349,7 +52349,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52391,7 +52391,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52433,7 +52433,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52475,7 +52475,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52517,7 +52517,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles V
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52559,7 +52559,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52601,7 +52601,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52643,7 +52643,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52685,7 +52685,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52727,7 +52727,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52769,7 +52769,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52811,7 +52811,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52853,7 +52853,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52895,7 +52895,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XIV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52937,7 +52937,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -52979,7 +52979,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53021,7 +53021,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53063,7 +53063,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53105,7 +53105,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53147,7 +53147,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53189,7 +53189,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53231,7 +53231,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53273,7 +53273,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XIV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53315,7 +53315,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53357,7 +53357,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53399,7 +53399,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles VIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53441,7 +53441,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles IX
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53483,7 +53483,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles X
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53525,7 +53525,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53567,7 +53567,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53609,7 +53609,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XIII
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53651,7 +53651,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XIV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53693,7 +53693,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XV
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
@@ -53735,7 +53735,7 @@ Weapon Seeker Dmg Res := 1296
 
 Name                  := Planetary Bombardment Missiles XVI
 Description           := Heavy drones which are designed to enter an atmosphere and carpet bomb ground targets.  Extremely slow but carry heavy armor.
-Pic Num               := 72
+Pic Num               := 3166
 Tonnage Space Taken   := 40
 Tonnage Structure     := 20
 Cost Minerals         := 1500
