@@ -2721,7 +2721,7 @@ Weapon Type           := None
 
 Name                  := 20cm Ceramic Composite Armor Plating
 Description           := Thick sheets of durable material designed to reduce damage sustained in combat.
-Pic Num               := 31663
+Pic Num               := 723
 Tonnage Space Taken   := 1
 Tonnage Structure     := 25
 Cost Minerals         := 20
@@ -2846,7 +2846,7 @@ Weapon Type           := None
 
 Name                  := 40cm Ceramic Composite Armor Plating
 Description           := Thick sheets of durable material designed to reduce damage sustained in combat.
-Pic Num               := 31663
+Pic Num               := 723
 Tonnage Space Taken   := 2
 Tonnage Structure     := 45
 Cost Minerals         := 40
@@ -2971,7 +2971,7 @@ Weapon Type           := None
 
 Name                  := 60cm Ceramic Composite Armor Plating
 Description           := Thick sheets of durable material designed to reduce damage sustained in combat.
-Pic Num               := 31663
+Pic Num               := 723
 Tonnage Space Taken   := 3
 Tonnage Structure     := 64
 Cost Minerals         := 60
