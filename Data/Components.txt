@@ -4752,7 +4752,7 @@ Weapon Type           := None
 
 Name                  := Small Fighter Bay
 Description           := Area on a starship where fighters are stored for launch.
-Pic Num               := 58
+Pic Num               := 3009
 Tonnage Space Taken   := 12
 Tonnage Structure     := 12
 Cost Minerals         := 500
@@ -4777,7 +4777,7 @@ Weapon Type           := None
 
 Name                  := Fighter Bay
 Description           := Area on a starship where fighters are stored for launch.
-Pic Num               := 3009
+Pic Num               := 58
 Tonnage Space Taken   := 16
 Tonnage Structure     := 16
 Cost Minerals         := 600

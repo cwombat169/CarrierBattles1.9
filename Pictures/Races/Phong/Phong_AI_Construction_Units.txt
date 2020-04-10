@@ -33,12 +33,12 @@ Entry X Maximum in kT:
 *BEGIN*
 =======================================================================================
 
-Percentage of Resources To Reserve For Unit Construction := 10
+Percentage of Resources To Reserve For Unit Construction := 20
 
 Colony Type                  := Homeworld
 Num Queue Entries            := 2
 Entry 1 Type                 := Troop
-Entry 1 Maximum in kT        := 1000
+Entry 1 Maximum in kT        := 10000
 Entry 2 Type                 := Fighter
 Entry 2 Maximum in kT        := 65000
 
@@ -66,7 +66,7 @@ Entry 3 Maximum in kT        := 300
 Entry 4 Type                 := Fighter
 Entry 4 Maximum in kT        := 700
 Entry 5 Type                 := Troop
-Entry 5 Maximum in kT        := 600
+Entry 5 Maximum in kT        := 1200
 Entry 6 Type                 := Fighter
 Entry 6 Maximum in kT        := 65000
 

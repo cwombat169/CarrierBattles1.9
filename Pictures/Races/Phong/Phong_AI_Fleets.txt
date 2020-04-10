@@ -67,7 +67,7 @@ Fleets Percentage of Ships For Fleets                                        := 
 Fleets Dont Use For Num Turns                                                := 10
 Fleets Default Formation                                                     := Wall
 Fleets Default Strategy                                                      := Break Formation
-Percentage of Fleets to use for defense                                      := 50
+Percentage of Fleets to use for defense                                      := 20
 
 =======================================================================================
 *END*
